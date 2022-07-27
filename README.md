@@ -13,7 +13,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 # 💫 About Me:
-### Hi there 👋, i am Usman Hassan. A Web Developer.
+### Hi there 👋, i am Usman Hassan. A Fullstack Developer.
 
 
 ## 🌐 Socials:
