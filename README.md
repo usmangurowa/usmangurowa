@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Usman Hassan</h1>
-<h3 align="center">A passionate Software developer from Nigeria.</h3>
+<h3 align="center">A passionate Software developer.</h3>
 
 <p align="left"> <a href="https://twitter.com/usmangurowa" target="blank"><img src="https://img.shields.io/twitter/follow/usmangurowa?logo=twitter&style=for-the-badge" alt="usmangurowa" /></a> </p>
 
