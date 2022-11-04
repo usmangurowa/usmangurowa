@@ -3,7 +3,7 @@
 
 <p align="left"> <a href="https://twitter.com/usmangurowa" target="blank"><img src="https://img.shields.io/twitter/follow/usmangurowa?logo=twitter&style=for-the-badge" alt="usmangurowa" /></a> </p>
 
-- 🔭 I’m currently working on [Scrim] and [Brimble]
+- 🔭 I’m currently working on [Scrim](https://usescrim.app) and [Brimble](https://brimble.io)
 
 - 🌱 I’m currently learning **Go, Dart.**
 
