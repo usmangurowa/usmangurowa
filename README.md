@@ -7,7 +7,7 @@
 
 - 🌱 I’m currently learning **Go, Dart.**
 
-- 📝 I regularly write articles on [https://softlinks.hashnode.dev/](https://softlinks.hashnode.dev/)
+- 📝 I regularly write articles on [https://usmangurowa.hashnode.dev/](https://usmangurowa.hashnode.dev/)
 
 - 💬 Ask me about **React, React-Native, TypeScript.**
 
