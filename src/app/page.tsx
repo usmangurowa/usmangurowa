@@ -91,7 +91,9 @@ export default function Home() {
                 {/* intro */}
                 <div className="flex gap-5 md:gap-20 md:flex-row flex-col-reverse">
                     <div className="space-y-2 flex-grow">
-                        <h1 className="title">Usman Hassan</h1>
+                        <h1 className="title text-center md:text-left">
+                            Usman Hassan
+                        </h1>
                         <p className="dark:text-gray-300 text-gray-800 ">
                             Full Stack Engineer that is passionate about
                             building impactful products, contributing to tech
@@ -114,7 +116,7 @@ export default function Home() {
                             )}
                         </ul>
                     </div>
-                    <div className="w-40 h-40 relative rounded-xl overflow-hidden flex-shrink-0">
+                    <div className="w-40 h-40 relative rounded-xl overflow-hidden flex-shrink-0 mx-auto ">
                         <Image
                             src={"/images/me.jpg"}
                             alt="Usman Gurowa Hassan"
