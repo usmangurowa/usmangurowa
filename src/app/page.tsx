@@ -10,7 +10,7 @@ export default function Home() {
         <>
             <nav className="flex py-5 fixed w-full z-50">
                 <div className="container w-full ">
-                    <ul className="flex items-center justify-center md:justify-start gap-3 dark:bg-gray-900 bg-gray-50 rounded-full w-full p-5 z-20">
+                    <ul className="flex items-center justify-center md:justify-start gap-3 dark:bg-gray-900/80 bg-gray-50/80 backdrop-blur-sm rounded-full w-full p-5 z-20">
                         {Object.entries(socials).map(
                             ([key, { href, icon: Icon }]) => (
                                 <li
