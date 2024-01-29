@@ -163,7 +163,7 @@ export default function Home() {
                 </div>
             </main>
             <section id="projects" />
-            <section className="flex py-5 mt-10 min-h-screen flex-col  container space-y-5">
+            <section className="flex py-5  min-h-screen flex-col  container space-y-5">
                 <h2 className="title">Projects</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  2xl:grid-cols-4 gap-5">
                     {projects.map((project) => (
