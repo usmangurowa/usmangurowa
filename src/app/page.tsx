@@ -4,6 +4,58 @@ import { experiences, links, projects, skills, socials } from "@/lib/constants";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Usman Hassan",
+    description:
+        "Full Stack Engineer that is passionate about building impactful products, contributing to tech communities & exploring emerging technologies. Enthusiastically share insights and knowledge.",
+    keywords: [
+        "Usman Hassan",
+        "Usman Gurowa Hassan",
+        "Software Engineer",
+        "Full Stack Engineer",
+        "React",
+        "Next.js",
+        "React-Native",
+        "TypeScript",
+        "Express.js",
+        "TailwindCSS",
+    ],
+    creator: "Usman Hassan",
+    publisher: "Usman Hassan",
+    openGraph: {
+        type: "profile",
+        countryName: "Nigeria",
+        description: "Full Stack Engineer",
+        firstName: "Usman",
+        images: [
+            {
+                url: "https://usmangurowa.tech/images/me.jpg",
+                alt: "Usman Gurowa Hassan",
+            },
+        ],
+        lastName: "Hassan",
+        locale: "en_US",
+        username: "usmangurowa",
+        title: "Usman Hassan",
+    },
+    twitter: {
+        card: "summary_large_image",
+        site: "@usmangurowa",
+        creator: "@usmangurowa",
+        creatorId: "usmangurowa",
+        description: "Full Stack Engineer",
+        images: [
+            {
+                url: "https://usmangurowa.tech/images/me.jpg",
+                alt: "Usman Gurowa Hassan",
+            },
+        ],
+        title: "Usman Hassan",
+        siteId: "usmangurowa.codes",
+    },
+};
 
 export default function Home() {
     return (
