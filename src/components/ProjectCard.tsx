@@ -18,7 +18,7 @@ const ProjectCard = ({
     return (
         <div
             key={name}
-            className="w-full rounded-lg bg-gray-50 dark:bg-gray-900 flex flex-col"
+            className="w-full rounded-lg dark:bg-gray-900/50 bg-gray-50/50 flex flex-col"
         >
             <div className="w-full h-44 relative rounded-lg overflow-hidden flex-shrink-0 cursor-pointer">
                 <Image
@@ -47,7 +47,7 @@ const ProjectCard = ({
                 </p>
 
                 <ul className="w-full flex items-center mt-2 ">
-                    <li className="dark:bg-gray-800 bg-gray-100 rounded-full px-2 py-1 text-xs uppercase">
+                    <li className="dark:bg-gray-900 bg-gray-100 rounded-full px-2 py-1 text-xs uppercase">
                         {status}
                     </li>
                     <li className="flex-grow" />

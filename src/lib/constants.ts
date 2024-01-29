@@ -126,17 +126,6 @@ const skills = {
 
 const projects = [
     {
-        name: "WebShot",
-        description:
-            "A web application that allows users to take screenshots of websites.",
-        image: "webshot",
-        link: "https://webshot.vercel.app/",
-        source: "https://github.com/usmangurowa/webshot",
-        tags: ["next.js", "tailwindcss", "typescript"],
-        status: "completed",
-        is_public: true,
-    },
-    {
         name: "Brimble",
         description:
             "A platform for shipping modern websites and applications with ease.",
@@ -147,6 +136,18 @@ const projects = [
         status: "in-progress",
         is_public: false,
     },
+    {
+        name: "WebShot",
+        description:
+            "A web application that allows users to take screenshots of websites.",
+        image: "webshot",
+        link: "https://webshot.vercel.app/",
+        source: "https://github.com/usmangurowa/webshot",
+        tags: ["next.js", "tailwindcss", "typescript"],
+        status: "completed",
+        is_public: true,
+    },
+
     {
         name: "Genztechies",
         description: "Africa's Fastest Growing Network for Gen-Zs in Tech.",
@@ -175,6 +176,26 @@ const projects = [
         link: "https://penter-app.vercel.app/",
         source: "",
         tags: ["next.js", "tailwindcss", "typescript"],
+        status: "completed",
+        is_public: false,
+    },
+
+    {
+        name: "Scrim",
+        description:
+            "With Scrim, you can request payments from anyone globally using their email address.",
+        image: "scrim",
+        link: "https://scrim.ai/",
+        source: "",
+        tags: [
+            "next.js",
+            "tailwindcss",
+            "typescript",
+            "react.js",
+            "shadncui",
+            "react-native",
+            "expo",
+        ],
         status: "completed",
         is_public: false,
     },
