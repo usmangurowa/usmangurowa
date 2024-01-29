@@ -3,15 +3,15 @@
 
 <p align="left"> <a href="https://twitter.com/usmangurowa" target="blank"><img src="https://img.shields.io/twitter/follow/usmangurowa?logo=twitter&style=for-the-badge" alt="usmangurowa" /></a> </p>
 
-- 🔭 I’m currently working on [Scrim](https://usescrim.app) and [Brimble](https://brimble.io)
+-   🔭 I’m currently working on [Brimble](https://brimble.io)
 
-- 🌱 I’m currently learning **Go, Dart.**
+-   🌱 I’m currently learning **Go, Dart.**
 
-- 📝 I regularly write articles on [https://usmangurowa.hashnode.dev/](https://usmangurowa.hashnode.dev/)
+-   📝 I regularly write articles on [https://usmangurowa.hashnode.dev/](https://usmangurowa.hashnode.dev/)
 
-- 💬 Ask me about **React, React-Native, TypeScript.**
+-   💬 Ask me about **React, React-Native, TypeScript.**
 
-- 📫 How to reach me **usmanhassangu@gmail.com**
+-   📫 How to reach me **[usmangurowa](https://twitter.com/usmangurowa)**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
