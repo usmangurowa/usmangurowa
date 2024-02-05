@@ -87,6 +87,22 @@ const experiences = [
         ],
     },
     {
+        title: "Mobile App Developer",
+        company: "Scrim",
+        location: "Lagos, Nigeria",
+        summary:
+            "I played a pivotal role in the project by constructing the front-end mobile interface, effectively integrating with APIs, and executing intricate application logic. My contributions encompassed creating an engaging and seamless user interface, establishing efficient communication with APIs, and implementing the underlying application logic to ensure a robust and functional mobile experience.",
+        description:
+            "Earn while you shop and pay effortlessly with Scrim tokens.",
+        from: "2022",
+        to: "2023",
+        responsibilities: [
+            "Mobile Development Efficiency: As the sole mobile developer at Goalr, successfully developed and released an application within a tight timeframe of less than two months.",
+            "Passionate Problem Solver: Displayed passion and dedication toward working on Goalr.",
+            "Meeting Tight Deadlines: Met the target deadline by effectively managing time and resources.",
+        ],
+    },
+    {
         title: "Full Stack Engineer",
         company: "BuildBrothers",
         location: "Benue, Nigeria",
