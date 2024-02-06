@@ -41,21 +41,21 @@ const experiences = [
             "Third-Party Integrations: Successfully incorporated third-party integrations with key platforms such as GitHub, Google, Firebase, and Progressive Web Applications (PWAs).",
         ],
     },
-    {
-        title: "Backend Engineer",
-        company: "Aviato",
-        location: "San Francisco, United States",
-        summary:
-            "Served as a Backend Engineer at Aviato, mastering the creation of API endpoints in Node.js. Specialized in testing and documentation, emphasizing a problem-solving focus with a reduced reliance on third-party libraries.",
-        description: "The ultimate search engine for startups.",
-        from: "2023",
-        to: "2024",
-        responsibilities: [
-            "Independent API Endpoint Creation: Mastered the creation of API endpoints in Node.js without relying on third-party frameworks like Express.js.",
-            "Proficient Testing and Documentation: Acquired skills in thorough testing and documentation of API applications.",
-            "Problem-Solving Focus: Developed a problem-solving mindset by reducing dependence on third-party libraries.",
-        ],
-    },
+    // {
+    //     title: "Backend Engineer",
+    //     company: "Aviato",
+    //     location: "San Francisco, United States",
+    //     summary:
+    //         "Served as a Backend Engineer at Aviato, mastering the creation of API endpoints in Node.js. Specialized in testing and documentation, emphasizing a problem-solving focus with a reduced reliance on third-party libraries.",
+    //     description: "The ultimate search engine for startups.",
+    //     from: "2023",
+    //     to: "2024",
+    //     responsibilities: [
+    //         "Independent API Endpoint Creation: Mastered the creation of API endpoints in Node.js without relying on third-party frameworks like Express.js.",
+    //         "Proficient Testing and Documentation: Acquired skills in thorough testing and documentation of API applications.",
+    //         "Problem-Solving Focus: Developed a problem-solving mindset by reducing dependence on third-party libraries.",
+    //     ],
+    // },
     {
         title: "Mobile App Developer",
         company: "Goalr",
