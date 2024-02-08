@@ -145,7 +145,7 @@ const projects = [
         name: "Brimble",
         description:
             "A platform for shipping modern websites and applications with ease.",
-        image: "/images/projects/brimble.png",
+        image: "brimble",
         link: "https://brimble.io/",
         source: "",
         tags: ["next.js", "tailwindcss", "typescript"],
@@ -157,7 +157,7 @@ const projects = [
         description:
             "A web application that allows users to take screenshots of websites.",
         image: "webshot",
-        link: "https://webshot.vercel.app/",
+        link: "https://webshot.brimble.app/",
         source: "https://github.com/usmangurowa/webshot",
         tags: ["next.js", "tailwindcss", "typescript"],
         status: "completed",
