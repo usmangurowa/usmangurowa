@@ -31,7 +31,7 @@ export const metadata: Metadata = {
         firstName: "Usman",
         images: [
             {
-                url: "/images/me.jpg",
+                url: "https://usmangurowa.codes/images/me.jpg",
                 alt: "Usman Gurowa Hassan",
             },
         ],
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
         description: "Full Stack Engineer",
         images: [
             {
-                url: "/images/me.jpg",
+                url: "https://usmangurowa.codes/images/me.jpg",
                 alt: "Usman Gurowa Hassan",
             },
         ],
