@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Roboto_Slab, Poppins } from "next/font/google";
-
+import { GoogleAnalytics } from "@next/third-parties/google";
 import "./globals.css";
 
 const roboto = Roboto_Slab({ subsets: ["latin"] });
@@ -22,6 +22,7 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body className={poppins.className}>{children}</body>
+            <GoogleAnalytics gaId="GTM-TBV72HDW" />
         </html>
     );
 }
