@@ -20,7 +20,11 @@ const ProjectCard = ({
             key={name}
             className="w-full rounded-lg dark:bg-gray-900/50 bg-gray-50/50 flex flex-col"
         >
-            <div className="w-full h-44 relative rounded-lg overflow-hidden flex-shrink-0 cursor-pointer">
+            <Link
+                href={link}
+                className="w-full h-44 relative rounded-lg overflow-hidden flex-shrink-0 cursor-pointer"
+                target="_blank"
+            >
                 <Image
                     src={`/images/${image}.png`}
                     alt={name}
@@ -39,7 +43,7 @@ const ProjectCard = ({
                         }
                     />
                 )}
-            </div>
+            </Link>
             <div className="p-5 flex flex-col  flex-grow">
                 <h3 className="text-xl font-semibold">{name}</h3>
                 <p className="text-gray-500 dark:text-gray-300 line-clamp-4 flex-grow">
