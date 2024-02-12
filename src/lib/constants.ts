@@ -153,6 +153,17 @@ const projects = [
         is_public: false,
     },
     {
+        name: "Fruits Empire 🍉",
+        description:
+            "An eccommerce platform for buying and selling fruits and vegetables.",
+        image: "fruitsempire",
+        link: "https://fruitsempire.com",
+        source: "#",
+        tags: ["next.js", "tailwindcss", "typescript", "zustand"],
+        status: "in-progress",
+        is_public: false,
+    },
+    {
         name: "WebShot",
         description:
             "A web application that allows users to take screenshots of websites.",
