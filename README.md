@@ -2,18 +2,6 @@
 <h3 align="center">A passionate Software developer.</h3>
 
 <p align="left"> <a href="https://twitter.com/usmangurowa" target="blank"><img src="https://img.shields.io/twitter/follow/usmangurowa?logo=twitter&style=for-the-badge" alt="usmangurowa" /></a> </p>
-
--   🔭 I’m currently working on [Brimble](https://brimble.io)
-
--   🌱 I’m currently learning **Go, Dart.**
-
--   📝 I regularly write articles on [https://usmangurowa.hashnode.dev/](https://usmangurowa.hashnode.dev/)
-
--   💬 Ask me about **React, React-Native, TypeScript.**
-
--   📫 How to reach me **[usmangurowa](https://twitter.com/usmangurowa)**
-
-<h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://twitter.com/usmangurowa" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="usmangurowa" height="30" width="40" /></a>
 <a href="https://fb.com/usmangurowa" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="usmangurowa" height="30" width="40" /></a>
