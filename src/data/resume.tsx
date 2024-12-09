@@ -4,7 +4,7 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Usman Hassan",
   initials: "US",
-  url: "https://usmangurowa.dev",
+  url: "https://www.usmangurowa.codes",
   location: "Abuja, Nigeria",
   locationLink: "https://www.google.com/maps/place/abuja",
   description:
