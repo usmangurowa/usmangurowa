@@ -84,7 +84,7 @@ export const DATA = {
       start: "March 2024",
       end: "Present",
       description:
-        "Implemented a custom Kubernetes controller in Go to automate the deployment of MySQL and ProxySQL custom resources in order to enable 2,000+ internal developers to instantly deploy their app databases to production. Wrote several scripts in Go to automate MySQL database failovers while maintaining master-slave replication topologies and keeping Zookeeper nodes consistent with changes."
+        "Worked as a fullstack developer on Yusra, implementing both mobile and web applications."
     },
     //
 
@@ -122,7 +122,7 @@ export const DATA = {
       start: "Mar 2024",
       end: "June 2024",
       description:
-        "Proposed and implemented an internal ruby API for sending/receiving commands to scooters over LTE networks. Developed a fully automated bike firmware update system to handle asynchronous firmware updates of over 100,000+ scooters worldwide, and provide progress reports in real-time using React, Ruby on Rails, PostgreSQL and AWS EC2 saving hundreds of developer hours."
+        "Worked as a Full-Stack Developer at Chimoney, contributing to the development of a web and mobile application. Demonstrated proficiency in web and mobile development, agile feature implementation, and valuable leadership within the community."
     },
     {
       company: "GenzTechies",
@@ -131,8 +131,8 @@ export const DATA = {
       location: "World",
       title: "Software Engineering Lead",
       logoUrl: "/genztechies.jpg",
-      start: "May 2017",
-      end: "August 2017",
+      start: "Aug 2022",
+      end: "Present",
       description:
         "Currently contributing as a Software Engineering Lead at Genztechies, playing a pivotal role in building various web applications. Exhibited proficiency in web application development, agile feature implementation, and valuable leadership within the community."
     }
@@ -162,7 +162,7 @@ export const DATA = {
       dates: "Jan 2024 - Feb 2024",
       active: true,
       description:
-        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
+        "A platform for shipping modern websites and applications with ease.",
       technologies: [
         "Next.js",
         "Typescript",
@@ -206,69 +206,66 @@ export const DATA = {
       ],
       image: "/yusra-web.png",
       video: ""
+    },
+    {
+      title: "GenzTechies",
+      href: "https://genztechies.com",
+      dates: "April 2023 - September 2023",
+      active: true,
+      description: "Africa's Fastest Growing Network for Gen-Zs in Tech.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "PostgreSQL",
+        "Prisma",
+        "TailwindCSS",
+        "Shadcn UI",
+        "Magic UI",
+        "Stripe",
+        "Cloudflare Workers"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://genztechies.com",
+          icon: <Icons.globe className="size-3" />
+        }
+        // {
+        //   type: "Source",
+        //   href: "https://github.com/dillionverma/llm.report",
+        //   icon: <Icons.github className="size-3" />
+        // }
+      ],
+      image: "/genztechies.png",
+      video: ""
+    },
+    {
+      title: "Penter",
+      href: "https://penter.xyz",
+      dates: "April 2023 - March 2024",
+      active: true,
+      description: "A web application that helps you to create dynamic designs",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "PostgreSQL",
+        "Prisma",
+        "TailwindCSS",
+        "Shadcn UI",
+        "Magic UI",
+        "Stripe",
+        "Cloudflare Workers"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://penter.xyz",
+          icon: <Icons.globe className="size-3" />
+        }
+      ],
+      image: "/penter.png",
+      video: ""
     }
-    // {
-    //   title: "llm.report",
-    //   href: "https://llm.report",
-    //   dates: "April 2023 - September 2023",
-    //   active: true,
-    //   description:
-    //     "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
-    //   technologies: [
-    //     "Next.js",
-    //     "Typescript",
-    //     "PostgreSQL",
-    //     "Prisma",
-    //     "TailwindCSS",
-    //     "Shadcn UI",
-    //     "Magic UI",
-    //     "Stripe",
-    //     "Cloudflare Workers"
-    //   ],
-    //   links: [
-    //     {
-    //       type: "Website",
-    //       href: "https://llm.report",
-    //       icon: <Icons.globe className="size-3" />
-    //     },
-    //     {
-    //       type: "Source",
-    //       href: "https://github.com/dillionverma/llm.report",
-    //       icon: <Icons.github className="size-3" />
-    //     }
-    //   ],
-    //   image: "",
-    //   video: "https://cdn.llm.report/openai-demo.mp4"
-    // },
-    // {
-    //   title: "Automatic Chat",
-    //   href: "https://automatic.chat",
-    //   dates: "April 2023 - March 2024",
-    //   active: true,
-    //   description:
-    //     "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
-    //   technologies: [
-    //     "Next.js",
-    //     "Typescript",
-    //     "PostgreSQL",
-    //     "Prisma",
-    //     "TailwindCSS",
-    //     "Shadcn UI",
-    //     "Magic UI",
-    //     "Stripe",
-    //     "Cloudflare Workers"
-    //   ],
-    //   links: [
-    //     {
-    //       type: "Website",
-    //       href: "https://automatic.chat",
-    //       icon: <Icons.globe className="size-3" />
-    //     }
-    //   ],
-    //   image: "",
-    //   video:
-    //     "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4"
-    // }
   ],
   hackathons: [
     {

@@ -4,7 +4,7 @@ import {
   CardContent,
   CardFooter,
   CardHeader,
-  CardTitle,
+  CardTitle
 } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
@@ -38,7 +38,7 @@ export function ProjectCard({
   image,
   video,
   links,
-  className,
+  className
 }: Props) {
   return (
     <Card
@@ -61,13 +61,14 @@ export function ProjectCard({
           />
         )}
         {image && (
-          <Image
-            src={image}
-            alt={title}
-            width={500}
-            height={300}
-            className="h-40 w-full overflow-hidden object-cover object-top"
-          />
+          <div className="w-[500px] h-40 overflow-hidden relative">
+            <Image
+              src={image}
+              alt={title}
+              fill
+              className="h-full w-full  object-cover object-center  hover:scale-110 transition-all duration-200 ease-in-out"
+            />
+          </div>
         )}
       </Link>
       <CardHeader className="px-2">
