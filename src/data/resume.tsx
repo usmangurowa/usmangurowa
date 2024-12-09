@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "I am Passionate about building impactful products, contributing to tech communities & exploring emerging technologies. I enthusiastically share insights and knowledge.",
   summary:
-    "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
+    "I'm a software engineer passionate about technology and community building. My journey began with coding and quickly evolved into teaching, mentoring, and creating innovative solutions like Brimble, a web hosting platform. As a Community Software Engineering Lead, I've dedicated myself to supporting developers, organizing hackathons, and contributing to open-source projects. My goal is to make technology more accessible and help others grow in their tech careers.",
   // "Started my career in 2021 as web developer. Won my first hackathon one year later, start learning mobile development with react-native and expo. Got a job as fullstack developer at Brimble a web hosting platform, where building one of the best application."
   avatarUrl: "/me.jpg",
   skills: [
@@ -110,7 +110,7 @@ export const DATA = {
       start: "July 2023",
       end: "Mar 2024",
       description:
-        "Co-developed a prototype iOS app with another intern in Swift for the new Splunk Phantom security orchestration product (later publicly demoed and launched at .conf annual conference in Las Vegas). Implemented a realtime service for the iOS app in Django (Python) and C++; serialized data using protobufs transmitted over gRPC resulting in an approximate 500% increase in data throughput."
+        "As the sole Mobile App Developer at Goalr, efficiently developed and released an application within a tight timeframe. Demonstrated passion and dedication, successfully meeting tight deadlines through effective time and resource management."
     },
     {
       company: "Chimoney",
@@ -134,7 +134,7 @@ export const DATA = {
       start: "May 2017",
       end: "August 2017",
       description:
-        "Designed and implemented a robust password encryption and browser cookie storage system in Ruby on Rails. Leveraged the Yahoo finance API to develop the dividend.com equity screener"
+        "Currently contributing as a Software Engineering Lead at Genztechies, playing a pivotal role in building various web applications. Exhibited proficiency in web application development, agile feature implementation, and valuable leadership within the community."
     }
   ],
   education: [
@@ -206,69 +206,69 @@ export const DATA = {
       ],
       image: "/yusra-web.png",
       video: ""
-    },
-    {
-      title: "llm.report",
-      href: "https://llm.report",
-      dates: "April 2023 - September 2023",
-      active: true,
-      description:
-        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers"
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://llm.report",
-          icon: <Icons.globe className="size-3" />
-        },
-        {
-          type: "Source",
-          href: "https://github.com/dillionverma/llm.report",
-          icon: <Icons.github className="size-3" />
-        }
-      ],
-      image: "",
-      video: "https://cdn.llm.report/openai-demo.mp4"
-    },
-    {
-      title: "Automatic Chat",
-      href: "https://automatic.chat",
-      dates: "April 2023 - March 2024",
-      active: true,
-      description:
-        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers"
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://automatic.chat",
-          icon: <Icons.globe className="size-3" />
-        }
-      ],
-      image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4"
     }
+    // {
+    //   title: "llm.report",
+    //   href: "https://llm.report",
+    //   dates: "April 2023 - September 2023",
+    //   active: true,
+    //   description:
+    //     "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
+    //   technologies: [
+    //     "Next.js",
+    //     "Typescript",
+    //     "PostgreSQL",
+    //     "Prisma",
+    //     "TailwindCSS",
+    //     "Shadcn UI",
+    //     "Magic UI",
+    //     "Stripe",
+    //     "Cloudflare Workers"
+    //   ],
+    //   links: [
+    //     {
+    //       type: "Website",
+    //       href: "https://llm.report",
+    //       icon: <Icons.globe className="size-3" />
+    //     },
+    //     {
+    //       type: "Source",
+    //       href: "https://github.com/dillionverma/llm.report",
+    //       icon: <Icons.github className="size-3" />
+    //     }
+    //   ],
+    //   image: "",
+    //   video: "https://cdn.llm.report/openai-demo.mp4"
+    // },
+    // {
+    //   title: "Automatic Chat",
+    //   href: "https://automatic.chat",
+    //   dates: "April 2023 - March 2024",
+    //   active: true,
+    //   description:
+    //     "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
+    //   technologies: [
+    //     "Next.js",
+    //     "Typescript",
+    //     "PostgreSQL",
+    //     "Prisma",
+    //     "TailwindCSS",
+    //     "Shadcn UI",
+    //     "Magic UI",
+    //     "Stripe",
+    //     "Cloudflare Workers"
+    //   ],
+    //   links: [
+    //     {
+    //       type: "Website",
+    //       href: "https://automatic.chat",
+    //       icon: <Icons.globe className="size-3" />
+    //     }
+    //   ],
+    //   image: "",
+    //   video:
+    //     "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4"
+    // }
   ],
   hackathons: [
     {
