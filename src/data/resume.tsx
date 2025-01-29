@@ -17,13 +17,16 @@ export const DATA = {
     "React",
     "Next.js",
     "Typescript",
+    "React-Native",
+    "TailwindCSS",
     "Node.js",
     "Python",
     "JavaScript",
     "Postgres",
     "Express.js",
     "Supabase",
-    "Firebase"
+    "Firebase",
+    "Web Scrapping"
   ],
   navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
   contact: {
