@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, NotebookIcon } from "lucide-react";
+import { HomeIcon } from "lucide-react";
 
 export const DATA = {
   name: "Usman Hassan",
@@ -159,6 +159,35 @@ export const DATA = {
     }
   ],
   projects: [
+    {
+      title: "Kodo",
+      href: "https://kodo.codes",
+      dates: "2025 - Present",
+      active: true,
+      description:
+        "An AI-powered developer productivity tracker that understands your code, not just your time. Features smart session tracking, flow state detection, break reminders, and AI-generated standups.",
+      technologies: [
+        "TypeScript",
+        "VS Code Extension",
+        "AI/ML",
+        "Node.js",
+        "React",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://kodo.codes",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "VS Code",
+          href: "https://marketplace.visualstudio.com/items?itemName=usmangurowa.kodo",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/kodo.png",
+      video: "",
+    },
     {
       title: "Brimble",
       href: "https://brimble.io",
@@ -656,18 +685,3 @@ export const DATA = {
     }
   ]
 } as const;
-
-`
-
-THINGS I HAVE DONE
-- Teach programning
-- Mentor People
-- Community Software Engineering Lead
-- Hosted and Organised Hackathons
-- Won a hackathon
-- Built a SaaS (Brimble, a webhosting platform similar to Vercel and Netlify)
-- Built open source projects
-- Contributed to open source projects
-- Active community member
-- mentor community member
-`;

@@ -26,6 +26,7 @@ interface Props {
     href: string;
   }[];
   className?: string;
+  active?: boolean;
 }
 
 export function ProjectCard({
@@ -38,17 +39,20 @@ export function ProjectCard({
   image,
   video,
   links,
-  className
+  className,
+  active,
 }: Props) {
   return (
     <Card
-      className={
-        "flex flex-col overflow-hidden border hover:shadow-lg transition-all duration-300 ease-out h-full"
-      }
+      className={cn(
+        "group flex flex-col overflow-hidden border hover:shadow-lg transition-all duration-300 ease-out h-full",
+        "hover:border-primary/30 hover:-translate-y-1"
+      )}
     >
       <Link
         href={href || "#"}
         className={cn("block cursor-pointer", className)}
+        target="_blank"
       >
         {video && (
           <video
@@ -57,38 +61,46 @@ export function ProjectCard({
             loop
             muted
             playsInline
-            className="pointer-events-none mx-auto h-40 w-full object-cover object-top" // needed because random black line at bottom of video
+            className="pointer-events-none mx-auto h-48 w-full object-cover object-top" // needed because random black line at bottom of video
           />
         )}
         {image && (
-          <div className="w-[500px] h-40 overflow-hidden relative">
+          <div className="relative w-full h-48 overflow-hidden">
             <Image
               src={image}
               alt={title}
               fill
-              className="h-full w-full  object-cover object-center  hover:scale-110 transition-all duration-200 ease-in-out"
+              className="object-cover object-center transition-transform duration-500 ease-in-out group-hover:scale-105"
             />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
           </div>
         )}
       </Link>
-      <CardHeader className="px-2">
-        <div className="space-y-1">
-          <CardTitle className="mt-1 text-base">{title}</CardTitle>
-          <time className="font-sans text-xs">{dates}</time>
+      <CardHeader className="px-4 pb-2">
+        <div className="space-y-1.5">
+          <div className="flex items-center justify-between">
+            <CardTitle className="mt-1 text-base font-semibold">{title}</CardTitle>
+            {active && (
+              <Badge variant="secondary" className="text-[10px] bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-400">
+                Active
+              </Badge>
+            )}
+          </div>
+          <time className="font-sans text-xs text-muted-foreground">{dates}</time>
           <div className="hidden font-sans text-xs underline print:visible">
             {link?.replace("https://", "").replace("www.", "").replace("/", "")}
           </div>
-          <Markdown className="prose max-w-full text-pretty font-sans text-xs text-muted-foreground dark:prose-invert">
+          <Markdown className="prose max-w-full text-pretty font-sans text-sm text-muted-foreground dark:prose-invert leading-relaxed">
             {description}
           </Markdown>
         </div>
       </CardHeader>
-      <CardContent className="mt-auto flex flex-col px-2">
+      <CardContent className="mt-auto flex flex-col px-4 pb-2">
         {tags && tags.length > 0 && (
-          <div className="mt-2 flex flex-wrap gap-1">
+          <div className="flex flex-wrap gap-1">
             {tags?.map((tag) => (
               <Badge
-                className="px-1 py-0 text-[10px]"
+                className="px-1.5 py-0.5 text-[10px] font-medium"
                 variant="secondary"
                 key={tag}
               >
@@ -98,12 +110,12 @@ export function ProjectCard({
           </div>
         )}
       </CardContent>
-      <CardFooter className="px-2 pb-2">
+      <CardFooter className="px-4 pb-3">
         {links && links.length > 0 && (
-          <div className="flex flex-row flex-wrap items-start gap-1">
+          <div className="flex flex-row flex-wrap items-start gap-1.5">
             {links?.map((link, idx) => (
               <Link href={link?.href} key={idx} target="_blank">
-                <Badge key={idx} className="flex gap-2 px-2 py-1 text-[10px]">
+                <Badge key={idx} className="flex gap-1.5 px-2.5 py-1 text-[10px] hover:bg-primary/80 transition-colors">
                   {link.icon}
                   {link.type}
                 </Badge>
