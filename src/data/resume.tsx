@@ -119,7 +119,7 @@ export const DATA = {
     },
     {
       company: "Scrim",
-      href: "https://github.com/usmangurowa/scrim",
+      href: "https://play.google.com/store/apps/details?id=com.usescrim.app",
       badges: [],
       location: "Remote",
       title: "Mobile Developer",
@@ -229,7 +229,7 @@ export const DATA = {
     },
     {
       title: "Scrim",
-      href: "https://github.com/usmangurowa/scrim",
+      href: "https://play.google.com/store/apps/details?id=com.usescrim.app",
       dates: "2022 - 2023",
       active: true,
       description:
@@ -244,11 +244,6 @@ export const DATA = {
         "SWR"
       ],
       links: [
-        {
-          type: "Source",
-          href: "https://github.com/usmangurowa/scrim",
-          icon: <Icons.github className="size-3" />
-        },
         {
           type: "Play Store (now Chimoney App)",
           href: "https://play.google.com/store/apps/details?id=com.usescrim.app",
