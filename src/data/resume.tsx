@@ -8,9 +8,9 @@ export const DATA = {
   location: "Abuja, Nigeria",
   locationLink: "https://www.google.com/maps/place/abuja",
   description:
-    "Software engineer building products end-to-end — mobile, web, backend and the infrastructure they run on. Passionate about impactful products, tech communities & emerging technologies.",
+    "Software engineer building products end-to-end, from mobile and web to backend and the infrastructure they run on. Passionate about impactful products, tech communities & emerging technologies.",
   summary:
-    "I'm a well-rounded software engineer who owns products end-to-end — from architecture, PRDs and database design to mobile apps, web frontends, APIs and deployment. I started out in 2021 as a web developer and won my first hackathon a year later with a mobile app. Since then I've been the sole mobile developer behind apps like Scrim and Goalr, led front-end development at Brimble (a web hosting platform), shipped full-stack products at Chimoney and Yusra, and recently built Silo, a personal finance app, and Kodo, a developer productivity platform spanning mobile, web and IDE extensions. As Software Engineering Lead at GenzTechies, I mentor developers and organize hackathons.",
+    "I'm a well-rounded software engineer who owns products end-to-end, from architecture, PRDs and database design to mobile apps, web frontends, APIs and deployment. I started out in 2021 as a web developer and won my first hackathon a year later with a mobile app. Since then I've been the sole mobile developer behind apps like Scrim and Goalr, led front-end development at Brimble (a web hosting platform), shipped full-stack products at Chimoney and Yusra, and recently built Silo, a personal finance app, and Kodo, a developer productivity platform spanning mobile, web and IDE extensions. As Software Engineering Lead at GenzTechies, I mentor developers and organize hackathons.",
   avatarUrl: "/me.jpg",
   skills: [
     "React Native",
@@ -79,7 +79,7 @@ export const DATA = {
       start: "Sept 2024",
       end: "Dec 2024",
       description:
-        "Interned as a hardware engineer, learning the intricate workings of hardware devices and drone technology — building and maintaining drones."
+        "Interned as a hardware engineer, learning the intricate workings of hardware devices and drone technology, building and maintaining drones."
     },
     {
       company: "Yusra",
@@ -103,7 +103,7 @@ export const DATA = {
       start: "Mar 2024",
       end: "June 2024",
       description:
-        "Built features across Chimoney's mobile and web apps — payments, wallets and payouts — shipping iteratively in an agile team."
+        "Built payments, wallets and payouts features across Chimoney's mobile and web apps, shipping iteratively in an agile team."
     },
     {
       company: "Goalr",
@@ -127,7 +127,7 @@ export const DATA = {
       start: "2022",
       end: "2023",
       description:
-        "Sole mobile developer. Built the entire Scrim app — a rewards and payments app for earning as you spend, swapping crypto and sending global transfers — from the ground up with React Native (Expo) and TypeScript: wallets, biometric authentication, secure storage, push notifications and OTA updates, shipped to iOS and Android. Also contributed to the web app and API integrations."
+        "Sole mobile developer for Scrim, a rewards and payments app for earning as you spend, swapping crypto and sending global transfers. Built the entire app from the ground up with React Native (Expo) and TypeScript: wallets, biometric authentication, secure storage, push notifications and OTA updates. Shipped to iOS and Android, and contributed to the web app and API integrations."
     },
     {
       company: "Brimble",
@@ -139,7 +139,7 @@ export const DATA = {
       start: "Aug 2022",
       end: "Early 2025",
       description:
-        "Led the front-end development of Brimble, a web hosting platform — independently creating over 90% of the interface. Implemented authentication, validation and third-party integrations, ensuring a seamless user experience."
+        "Led the front-end development of Brimble, a web hosting platform, independently creating over 90% of the interface. Implemented authentication, validation and third-party integrations, ensuring a seamless user experience."
     },
     {
       company: "GenzTechies",
@@ -233,7 +233,7 @@ export const DATA = {
       dates: "2022 - 2023",
       active: true,
       description:
-        "A rewards and payments app — earn as you spend, swap crypto instantly and send global transfers via email or phone. Built solo end-to-end and shipped to iOS and Android.",
+        "A rewards and payments app: earn as you spend, swap crypto instantly and send global transfers via email or phone. Built solo end-to-end and shipped to iOS and Android.",
       technologies: [
         "React Native",
         "Expo",
@@ -292,7 +292,7 @@ export const DATA = {
       dates: "March 2024 - Dec 2024",
       active: true,
       description:
-        "A wallet for every brand, all in one app — shoppers discover stores, create brand wallets, earn rewards, save and shop in one place. Built the mobile and web apps.",
+        "A wallet for every brand, all in one app. Shoppers discover stores, create brand wallets, earn rewards, save and shop in one place. Built the mobile and web apps.",
       technologies: [
         "React Native",
         "Expo",
@@ -404,7 +404,7 @@ export const DATA = {
       dates: "July 2022",
       location: "Nigeria",
       description:
-        "Won 1st place at the inaugural GenzTechies Hackfest — my first-ever hackathon — with SafePal, a mobile app for reporting missing persons that uses consent-based location tracking to give security agencies the data they need to find them. The win brought me into the GenzTechies core community, where I've since been a core organizer of two more hackathons and now serve as Software Engineering Lead.",
+        "Won 1st place at the inaugural GenzTechies Hackfest, my first-ever hackathon, with SafePal, a mobile app for reporting missing persons that uses consent-based location tracking to give security agencies the data they need to find them. The win brought me into the GenzTechies core community, where I've since been a core organizer of two more hackathons and now serve as Software Engineering Lead.",
       image: "/genztechies.jpg",
       win: "1st Place Winner",
       links: [

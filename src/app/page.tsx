@@ -123,7 +123,7 @@ export default function Page() {
                   Projects i&apos;ve worked on.
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I&apos;ve worked on a variety of projects — from mobile apps
+                  I&apos;ve worked on a variety of projects, from mobile apps
                   shipped to the App Store and Play Store to full web
                   platforms. Here are a few of my favorites.
                 </p>
@@ -164,7 +164,7 @@ export default function Page() {
                   I like building things
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  My first hackathon changed my career — I won it with a mobile
+                  My first hackathon changed my career. I won it with a mobile
                   app, and it pulled me into a community of builders where I
                   now help organize hackathons for others.
                 </p>
