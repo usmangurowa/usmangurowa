@@ -186,48 +186,6 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Silo",
-      href: "https://usesilo.app",
-      dates: "Aug 2025 - Mar 2026",
-      active: true,
-      description:
-        "A mobile-first personal finance app with transaction intelligence, fund locking, group savings and bill splitting.",
-      technologies: [
-        "React Native",
-        "Expo",
-        "TypeScript",
-        "Zustand",
-        "TailwindCSS"
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://usesilo.app",
-          icon: <Icons.globe className="size-3" />
-        }
-      ],
-      image: "/silo.png",
-      video: ""
-    },
-    {
-      title: "Kodo",
-      href: "https://kodo.codes",
-      dates: "Nov 2025 - Mar 2026",
-      active: true,
-      description:
-        "A developer productivity and session tracking platform spanning mobile, web and IDE extensions.",
-      technologies: ["TypeScript", "React Native", "Expo", "Next.js"],
-      links: [
-        {
-          type: "Website",
-          href: "https://kodo.codes",
-          icon: <Icons.globe className="size-3" />
-        }
-      ],
-      image: "/kodo.jpg",
-      video: ""
-    },
-    {
       title: "Scrim",
       href: "https://play.google.com/store/apps/details?id=com.usescrim.app",
       dates: "2022 - 2023",
@@ -282,58 +240,6 @@ export const DATA = {
       video: ""
     },
     {
-      title: "Yusra",
-      href: "https://yusra.app",
-      dates: "March 2024 - Dec 2024",
-      active: true,
-      description:
-        "A wallet for every brand, all in one app. Shoppers discover stores, create brand wallets, earn rewards, save and shop in one place. Built the mobile and web apps.",
-      technologies: [
-        "React Native",
-        "Expo",
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "TailwindCSS",
-        "Supabase"
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://yusra.app",
-          icon: <Icons.globe className="size-3" />
-        }
-      ],
-      image: "/yusra-web.png",
-      video: ""
-    },
-    {
-      title: "Brimble",
-      href: "https://brimble.io",
-      dates: "Aug 2022 - 2025",
-      active: true,
-      description:
-        "A platform for shipping modern websites and applications with ease.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "PayStack",
-        "Shadcn UI"
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://brimble.io",
-          icon: <Icons.globe className="size-3" />
-        }
-      ],
-      image: "/brimble.png",
-      video: ""
-    },
-    {
       title: "GenzTechies",
       href: "https://genztechies.com",
       dates: "April 2023 - September 2023",
@@ -366,6 +272,76 @@ export const DATA = {
       video: ""
     },
     {
+      title: "Yusra",
+      href: "https://yusra.app",
+      dates: "March 2024 - Dec 2024",
+      active: true,
+      description:
+        "A wallet for every brand, all in one app. Shoppers discover stores, create brand wallets, earn rewards, save and shop in one place. Built the mobile and web apps.",
+      technologies: [
+        "React Native",
+        "Expo",
+        "Next.js",
+        "Typescript",
+        "PostgreSQL",
+        "TailwindCSS",
+        "Supabase"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://yusra.app",
+          icon: <Icons.globe className="size-3" />
+        }
+      ],
+      image: "/yusra-web.png",
+      video: ""
+    },
+    {
+      title: "Kodo",
+      href: "https://kodo.codes",
+      dates: "Nov 2025 - Mar 2026",
+      active: true,
+      description:
+        "A developer productivity and session tracking platform spanning mobile, web and IDE extensions.",
+      technologies: ["TypeScript", "React Native", "Expo", "Next.js"],
+      links: [
+        {
+          type: "Website",
+          href: "https://kodo.codes",
+          icon: <Icons.globe className="size-3" />
+        }
+      ],
+      image: "/kodo.jpg",
+      video: ""
+    },
+    {
+      title: "Brimble",
+      href: "https://brimble.io",
+      dates: "Aug 2022 - 2025",
+      active: true,
+      description:
+        "A platform for shipping modern websites and applications with ease.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "PostgreSQL",
+        "Prisma",
+        "TailwindCSS",
+        "PayStack",
+        "Shadcn UI"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://brimble.io",
+          icon: <Icons.globe className="size-3" />
+        }
+      ],
+      image: "/brimble.png",
+      video: ""
+    },
+    {
       title: "Penter",
       href: "https://penter.xyz",
       dates: "April 2023 - March 2024",
@@ -390,6 +366,30 @@ export const DATA = {
         }
       ],
       image: "/penter.png",
+      video: ""
+    },
+    {
+      title: "Silo",
+      href: "https://usesilo.app",
+      dates: "Aug 2025 - Mar 2026",
+      active: true,
+      description:
+        "A mobile-first personal finance app with transaction intelligence, fund locking, group savings and bill splitting.",
+      technologies: [
+        "React Native",
+        "Expo",
+        "TypeScript",
+        "Zustand",
+        "TailwindCSS"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://usesilo.app",
+          icon: <Icons.globe className="size-3" />
+        }
+      ],
+      image: "/silo.png",
       video: ""
     }
   ],
