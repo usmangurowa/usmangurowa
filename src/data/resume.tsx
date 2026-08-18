@@ -248,6 +248,11 @@ export const DATA = {
           type: "Source",
           href: "https://github.com/usmangurowa/scrim",
           icon: <Icons.github className="size-3" />
+        },
+        {
+          type: "Play Store (now Chimoney App)",
+          href: "https://play.google.com/store/apps/details?id=com.usescrim.app",
+          icon: <Icons.globe className="size-3" />
         }
       ],
       image: "/scrim.png",
@@ -265,6 +270,16 @@ export const DATA = {
         {
           type: "Website",
           href: "https://goalr.world",
+          icon: <Icons.globe className="size-3" />
+        },
+        {
+          type: "App Store",
+          href: "https://apps.apple.com/us/app/goalr-walk-run-ride-earn/id6465899289",
+          icon: <Icons.globe className="size-3" />
+        },
+        {
+          type: "Play Store",
+          href: "https://play.google.com/store/apps/details?id=com.goalr",
           icon: <Icons.globe className="size-3" />
         }
       ],
