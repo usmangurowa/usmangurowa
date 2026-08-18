@@ -342,6 +342,24 @@ export const DATA = {
       video: ""
     },
     {
+      title: "WhoDeySell",
+      href: "https://whodeysell.com.ng",
+      dates: "2021 - 2022",
+      active: true,
+      description:
+        "A people driven marketplace for finding items near you, with price discovery and a Swap-It feature for trading items. Built while at BuildBrothers.",
+      technologies: ["React", "Next.js", "JavaScript"],
+      links: [
+        {
+          type: "Website",
+          href: "https://whodeysell.com.ng",
+          icon: <Icons.globe className="size-3" />
+        }
+      ],
+      image: "/whodeysell.png",
+      video: ""
+    },
+    {
       title: "Penter",
       href: "https://penter.xyz",
       dates: "April 2023 - March 2024",
