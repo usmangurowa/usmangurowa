@@ -123,9 +123,9 @@ export default function Page() {
                   Projects i&apos;ve worked on.
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I&apos;ve worked on a variety of projects, from simple
-                  websites to complex web applications. Here are a few of my
-                  favorites.
+                  I&apos;ve worked on a variety of projects — from mobile apps
+                  shipped to the App Store and Play Store to full web
+                  platforms. Here are a few of my favorites.
                 </p>
               </div>
             </div>
@@ -152,7 +152,7 @@ export default function Page() {
           </div>
         </div>
       </section>
-      <section id="hackathons" className="hidden">
+      <section id="hackathons">
         <div className="space-y-12 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 13}>
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
@@ -164,12 +164,9 @@ export default function Page() {
                   I like building things
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  During my time in university, I attended{" "}
-                  {DATA.hackathons.length}+ hackathons. People from around the
-                  country would come together and build incredible things in 2-3
-                  days. It was eye-opening to see the endless possibilities
-                  brought to life by a group of motivated and passionate
-                  individuals.
+                  My first hackathon changed my career — I won it with a mobile
+                  app, and it pulled me into a community of builders where I
+                  now help organize hackathons for others.
                 </p>
               </div>
             </div>
