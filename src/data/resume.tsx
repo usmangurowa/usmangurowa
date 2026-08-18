@@ -8,17 +8,20 @@ export const DATA = {
   location: "Abuja, Nigeria",
   locationLink: "https://www.google.com/maps/place/abuja",
   description:
-    "Mobile-focused software engineer (React Native & Expo). Passionate about building impactful products, contributing to tech communities & exploring emerging technologies.",
+    "Software engineer building products end-to-end — mobile, web, backend and the infrastructure they run on. Passionate about impactful products, tech communities & emerging technologies.",
   summary:
-    "I'm a software engineer specializing in mobile development with React Native and Expo. I started out in 2021 as a web developer and won my first hackathon a year later with a mobile app. Since then I've been the sole mobile developer behind apps like Scrim and Goalr — owning everything from architecture and API integrations to App Store and Play Store releases — and shipped mobile and web products at Chimoney and Yusra. I also led front-end development at Brimble, a web hosting platform, and serve as Software Engineering Lead at GenzTechies, where I mentor developers and organize hackathons.",
+    "I'm a well-rounded software engineer who owns products end-to-end — from architecture, PRDs and database design to mobile apps, web frontends, APIs and deployment. I started out in 2021 as a web developer and won my first hackathon a year later with a mobile app. Since then I've been the sole mobile developer behind apps like Scrim and Goalr, led front-end development at Brimble (a web hosting platform), shipped full-stack products at Chimoney and Yusra, and recently built Silo, a personal finance app, and Kodo, a developer productivity platform spanning mobile, web and IDE extensions. As Software Engineering Lead at GenzTechies, I mentor developers and organize hackathons.",
   avatarUrl: "/me.jpg",
   skills: [
     "React Native",
     "Expo",
+    "EAS",
     "TypeScript",
     "React",
     "Next.js",
+    "Zustand",
     "Reanimated",
+    "Skia",
     "TailwindCSS",
     "Node.js",
     "Express.js",
@@ -26,7 +29,8 @@ export const DATA = {
     "Python",
     "Postgres",
     "Supabase",
-    "Firebase"
+    "Firebase",
+    "Docker"
   ],
   navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
   contact: {
@@ -181,6 +185,48 @@ export const DATA = {
     }
   ],
   projects: [
+    {
+      title: "Silo",
+      href: "https://usesilo.app",
+      dates: "Aug 2025 - Mar 2026",
+      active: true,
+      description:
+        "A mobile-first personal finance app with transaction intelligence, fund locking, group savings and bill splitting.",
+      technologies: [
+        "React Native",
+        "Expo",
+        "TypeScript",
+        "Zustand",
+        "TailwindCSS"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://usesilo.app",
+          icon: <Icons.globe className="size-3" />
+        }
+      ],
+      image: "/silo.png",
+      video: ""
+    },
+    {
+      title: "Kodo",
+      href: "https://kodo.codes",
+      dates: "Nov 2025 - Mar 2026",
+      active: true,
+      description:
+        "A developer productivity and session tracking platform spanning mobile, web and IDE extensions.",
+      technologies: ["TypeScript", "React Native", "Expo", "Next.js"],
+      links: [
+        {
+          type: "Website",
+          href: "https://kodo.codes",
+          icon: <Icons.globe className="size-3" />
+        }
+      ],
+      image: "",
+      video: ""
+    },
     {
       title: "Scrim",
       href: "https://github.com/usmangurowa/scrim",
@@ -339,11 +385,11 @@ export const DATA = {
   ],
   hackathons: [
     {
-      title: "GenzTechies Hackathon",
+      title: "GenzTechies Hackfest",
       dates: "July 2022",
       location: "Nigeria",
       description:
-        "Won 1st place at my first-ever hackathon with SafePal, a mobile app for reporting missing persons that uses consent-based location tracking to give security agencies the data they need to find them. This win led me into the GenzTechies core community, where I now serve as Software Engineering Lead.",
+        "Won 1st place at the inaugural GenzTechies Hackfest — my first-ever hackathon — with SafePal, a mobile app for reporting missing persons that uses consent-based location tracking to give security agencies the data they need to find them. The win brought me into the GenzTechies core community, where I've since been a core organizer of two more hackathons and now serve as Software Engineering Lead.",
       image: "/genztechies.jpg",
       win: "1st Place Winner",
       links: [
