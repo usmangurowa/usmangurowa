@@ -123,11 +123,11 @@ export const DATA = {
       badges: [],
       location: "Remote",
       title: "Mobile Developer",
-      logoUrl: "/scrim.png",
+      logoUrl: "/scrim-logo.png",
       start: "2022",
       end: "2023",
       description:
-        "Sole mobile developer. Built the entire Scrim app from the ground up with React Native (Expo) and TypeScript — wallets and payments, biometric authentication, secure storage, push notifications and OTA updates — and shipped it to iOS and Android. Also contributed to the web app and API integrations."
+        "Sole mobile developer. Built the entire Scrim app — a rewards and payments app for earning as you spend, swapping crypto and sending global transfers — from the ground up with React Native (Expo) and TypeScript: wallets, biometric authentication, secure storage, push notifications and OTA updates, shipped to iOS and Android. Also contributed to the web app and API integrations."
     },
     {
       company: "Brimble",
@@ -159,7 +159,7 @@ export const DATA = {
       badges: [],
       location: "Nigeria",
       title: "Software Engineer Intern",
-      logoUrl: "/buildspace.jpg",
+      logoUrl: "/buildbrothers.png",
       start: "2021",
       end: "2022",
       description:
@@ -233,7 +233,7 @@ export const DATA = {
       dates: "2022 - 2023",
       active: true,
       description:
-        "A payments mobile app I built solo end-to-end — wallets, biometric auth, push notifications and OTA updates — shipped to iOS and Android.",
+        "A rewards and payments app — earn as you spend, swap crypto instantly and send global transfers via email or phone. Built solo end-to-end and shipped to iOS and Android.",
       technologies: [
         "React Native",
         "Expo",
