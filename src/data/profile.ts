@@ -63,7 +63,7 @@ export const profile = {
       href: "https://genztechies.com",
       start: "Aug 2022",
       end: "Now",
-      note: "Africa's fastest-growing network for Gen-Zs in tech. I build its web apps, mentor developers and help run the hackathons.",
+      note: "Africa's fastest-growing network for Gen-Zs in tech. I own the web platform end to end, mentor developers through their first shipped projects and help run the hackathons, including the one that got me started.",
     },
     {
       role: "Software engineer",
@@ -71,7 +71,7 @@ export const profile = {
       href: "https://brimble.io",
       start: "Aug 2022",
       end: "Early 2025",
-      note: "Web hosting platform. Led the frontend and built most of the interface, from auth to third-party integrations.",
+      note: "Web hosting platform. Led the frontend for two and a half years and built over 90% of the interface solo: auth, forms and validation, third-party integrations, the lot. Worked straight from design to production with the founders.",
     },
     {
       role: "Software engineer",
@@ -79,9 +79,9 @@ export const profile = {
       href: "https://yusra.app",
       start: "Mar 2024",
       end: "Dec 2024",
-      note: "A wallet for every brand. Shipped both surfaces.",
+      note: "A wallet for every brand. Full-stack across both surfaces, sharing one API and one design system, shipping weekly.",
       tree: [
-        { name: "Yusra app", blurb: "Shopping and rewards on React Native and Expo." },
+        { name: "Yusra app", blurb: "Discover stores, earn rewards, save and shop. React Native and Expo." },
         { name: "Yusra web", blurb: "The same product in the browser, on Next.js." },
       ],
     },
@@ -91,7 +91,7 @@ export const profile = {
       href: "https://terrahaptix.com",
       start: "Sep 2024",
       end: "Dec 2024",
-      note: "A detour into hardware. Built and maintained drones.",
+      note: "A detour into hardware. Built and maintained drones, and learned how the physical side of a product gets tested and shipped.",
     },
     {
       role: "Full-stack developer",
@@ -99,7 +99,7 @@ export const profile = {
       href: "https://chimoney.io",
       start: "Mar 2024",
       end: "Jun 2024",
-      note: "Payments, wallets and payouts across the mobile and web apps.",
+      note: "Payments, wallets and payouts across the mobile and web apps, shipped iteratively in an agile team. Scrim, the app I built from zero, lives on as the Chimoney app.",
     },
     {
       role: "Mobile developer",
@@ -107,7 +107,7 @@ export const profile = {
       href: "https://goalr.world",
       start: "Jul 2023",
       end: "Mar 2024",
-      note: "Fitness app that syncs Apple Health, Strava, Garmin and Google Fit. Only mobile developer, idea to store, on a tight clock.",
+      note: "Fitness app that syncs Apple Health, Strava, Garmin and Google Fit. Only mobile developer: designed, built and released it to both stores, idea to launch, on a tight clock.",
     },
     {
       role: "Mobile developer",
@@ -115,9 +115,9 @@ export const profile = {
       href: "https://play.google.com/store/apps/details?id=com.usescrim.app",
       start: "2022",
       end: "2023",
-      note: "Rewards and payments app. Built the whole thing from zero and shipped it to both stores.",
+      note: "Rewards and payments app. Built the whole thing from zero in React Native and TypeScript, shipped it to both stores, then pitched in on the web app and API integrations.",
       tree: [
-        { name: "Wallets", blurb: "Earn as you spend, swap crypto, send money by email or phone." },
+        { name: "Wallets", blurb: "Earn as you spend, swap crypto instantly, send money by email or phone." },
         { name: "Plumbing", blurb: "Biometric auth, secure storage, push notifications, OTA updates." },
       ],
     },
@@ -127,7 +127,7 @@ export const profile = {
       href: "https://buildbrothers.com",
       start: "2021",
       end: "2022",
-      note: "Where it started. Built web apps at the BuildSpace hub and learned what production means.",
+      note: "Where it started. Built web apps at the BuildSpace hub, including WhoDeySell, and learned what production means.",
     },
   ] satisfies Job[],
 

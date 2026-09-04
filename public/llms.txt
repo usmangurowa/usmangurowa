@@ -17,14 +17,14 @@ Outside work I lead engineering at GenzTechies, where I mentor developers and he
 
 ## Work
 
-- **GenzTechies** — Software engineering lead (Aug 2022 – Now). Africa's fastest-growing network for Gen-Zs in tech. Builds its web apps, mentors developers, helps run hackathons.
-- **Brimble** — Software engineer (Aug 2022 – Early 2025). Web hosting platform. Led the frontend and built most of the interface.
-- **Yusra** — Software engineer (Mar 2024 – Dec 2024). Brand-wallet shopping and rewards app. Built the mobile app (React Native, Expo) and the web app (Next.js).
-- **Terrahaptix** — Hardware engineering intern (Sep 2024 – Dec 2024). Built and maintained drones.
-- **Chimoney** — Full-stack developer (Mar 2024 – Jun 2024). Payments, wallets and payouts across mobile and web.
-- **Goalr** — Mobile developer (Jul 2023 – Mar 2024). Fitness app syncing Apple Health, Strava, Garmin and Google Fit. Sole mobile developer.
-- **Scrim** — Mobile developer (2022 – 2023). Rewards and payments app built from zero: wallets, crypto swaps, global transfers, biometric auth, secure storage, push notifications, OTA updates. Shipped to iOS and Android.
-- **BuildBrothers** — Software engineer intern (2021 – 2022). First role, building web apps at the BuildSpace hub.
+- **GenzTechies** — Software engineering lead (Aug 2022 – Now). Africa's fastest-growing network for Gen-Zs in tech. I own the web platform end to end, mentor developers through their first shipped projects and help run the hackathons, including the one that got me started.
+- **Brimble** — Software engineer (Aug 2022 – Early 2025). Web hosting platform. Led the frontend for two and a half years and built over 90% of the interface solo: auth, forms and validation, third-party integrations, the lot. Worked straight from design to production with the founders.
+- **Yusra** — Software engineer (Mar 2024 – Dec 2024). A wallet for every brand. Full-stack across both surfaces, sharing one API and one design system, shipping weekly. Yusra app: discover stores, earn rewards, save and shop, on React Native and Expo. Yusra web: the same product in the browser, on Next.js.
+- **Terrahaptix** — Hardware engineering intern (Sep 2024 – Dec 2024). A detour into hardware. Built and maintained drones, and learned how the physical side of a product gets tested and shipped.
+- **Chimoney** — Full-stack developer (Mar 2024 – Jun 2024). Payments, wallets and payouts across the mobile and web apps, shipped iteratively in an agile team. Scrim, the app I built from zero, lives on as the Chimoney app.
+- **Goalr** — Mobile developer (Jul 2023 – Mar 2024). Fitness app that syncs Apple Health, Strava, Garmin and Google Fit. Only mobile developer: designed, built and released it to both stores, idea to launch, on a tight clock.
+- **Scrim** — Mobile developer (2022 – 2023). Rewards and payments app. Built the whole thing from zero in React Native and TypeScript, shipped it to both stores, then pitched in on the web app and API integrations. Wallets: earn as you spend, swap crypto instantly, send money by email or phone. Plumbing: biometric auth, secure storage, push notifications, OTA updates.
+- **BuildBrothers** — Software engineer intern (2021 – 2022). Where it started. Built web apps at the BuildSpace hub, including WhoDeySell, and learned what production means.
 
 ## Projects
 
