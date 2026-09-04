@@ -56,6 +56,11 @@ export default function Page() {
         <WorkLedger jobs={profile.work} />
       </section>
 
+      <section className="section" aria-labelledby="skills">
+        <h2 id="skills">Skills</h2>
+        <Skills groups={profile.skills} />
+      </section>
+
       <section className="section" aria-labelledby="projects">
         <h2 id="projects">Projects</h2>
         <Projects projects={profile.projects} />
@@ -69,11 +74,6 @@ export default function Page() {
       <section className="section" aria-labelledby="education">
         <h2 id="education">Education</h2>
         <Ledger items={profile.education} />
-      </section>
-
-      <section className="section" aria-labelledby="skills">
-        <h2 id="skills">Skills</h2>
-        <Skills groups={profile.skills} />
       </section>
 
       <Footer />
