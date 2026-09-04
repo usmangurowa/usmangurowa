@@ -1,0 +1,56 @@
+# Usman Hassan
+
+## About
+
+Software engineer in Abuja, Nigeria. Mobile first, whole stack after.
+I build products end to end: the app in your pocket, the site beside it, the API underneath and the box it runs on. Shipping since 2021, mostly TypeScript, React Native and Next.js, usually as the only mobile engineer in the room.
+Outside work I lead engineering at GenzTechies, where I mentor developers and help run hackathons.
+
+## Links
+
+- [Website](https://www.usmangurowa.codes/)
+- [X (Twitter)](https://x.com/usmangurowa)
+- [GitHub](https://github.com/usmangurowa)
+- [LinkedIn](https://linkedin.com/in/usmangurowa)
+- [Email](mailto:usmanhassangu@gmail.com)
+- [Résumé](https://www.usmangurowa.codes/resume.pdf)
+
+## Work
+
+- **GenzTechies** — Software engineering lead (Aug 2022 – Now). Africa's fastest-growing network for Gen-Zs in tech. Builds its web apps, mentors developers, helps run hackathons.
+- **Brimble** — Software engineer (Aug 2022 – Early 2025). Web hosting platform. Led the frontend and built most of the interface.
+- **Yusra** — Software engineer (Mar 2024 – Dec 2024). Brand-wallet shopping and rewards app. Built the mobile app (React Native, Expo) and the web app (Next.js).
+- **Terrahaptix** — Hardware engineering intern (Sep 2024 – Dec 2024). Built and maintained drones.
+- **Chimoney** — Full-stack developer (Mar 2024 – Jun 2024). Payments, wallets and payouts across mobile and web.
+- **Goalr** — Mobile developer (Jul 2023 – Mar 2024). Fitness app syncing Apple Health, Strava, Garmin and Google Fit. Sole mobile developer.
+- **Scrim** — Mobile developer (2022 – 2023). Rewards and payments app built from zero: wallets, crypto swaps, global transfers, biometric auth, secure storage, push notifications, OTA updates. Shipped to iOS and Android.
+- **BuildBrothers** — Software engineer intern (2021 – 2022). First role, building web apps at the BuildSpace hub.
+
+## Projects
+
+- [Silo](https://usesilo.app): Personal finance app with transaction intelligence, fund locking, group savings and bill splitting.
+- [Kodo](https://kodo.codes): Developer productivity and session tracking across mobile, web and IDE extensions.
+- [Goalr](https://goalr.world): Walk, run, ride, earn. On the [App Store](https://apps.apple.com/us/app/goalr-walk-run-ride-earn/id6465899289) and [Google Play](https://play.google.com/store/apps/details?id=com.goalr).
+- [Scrim](https://play.google.com/store/apps/details?id=com.usescrim.app): Rewards and payments app, now the Chimoney app.
+- [Yusra](https://yusra.app): A wallet for every brand.
+- [Brimble](https://brimble.io): Ship modern websites and apps.
+- [GenzTechies](https://genztechies.com): Community website.
+- [Penter](https://penter.xyz): Dynamic designs in the browser.
+- [WhoDeySell](https://whodeysell.com.ng): People-driven marketplace with price discovery and item swapping.
+
+## Recognition
+
+- 1st place, GenzTechies Hackfest (Jul 2022) with SafePal, a missing-persons app built on consent-based location sharing.
+- Core organiser of GenzTechies hackathons (2023 – Now).
+
+## Education
+
+- B.Sc. Computer Science, Taraba State University (2022 – 2025)
+- Diploma in Computer Science, Nigerian Army College of Environmental Science and Technology (2018 – 2021)
+
+## Skills
+
+- **Mobile:** React Native, Expo, EAS, Reanimated, Skia
+- **Frontend:** TypeScript, React, Next.js, Zustand, Tailwind CSS
+- **Backend:** Node.js, Express, Python, PostgreSQL, Supabase, Firebase
+- **Infrastructure:** Docker, Cloudflare Workers, Vercel
