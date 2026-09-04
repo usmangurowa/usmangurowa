@@ -63,7 +63,7 @@ export const profile = {
       href: "https://genztechies.com",
       start: "Aug 2022",
       end: "Now",
-      note: "Africa's fastest-growing network for Gen-Zs in tech. I own the web platform end to end, mentor developers through their first shipped projects and help run the hackathons, including the one that got me started.",
+      note: "Software Engineering Lead at GenzTechies, Africa's fastest-growing network for Gen-Zs in tech. Build the community's web applications, mentor developers and help organize hackathons.",
     },
     {
       role: "Software engineer",
@@ -71,7 +71,7 @@ export const profile = {
       href: "https://brimble.io",
       start: "Aug 2022",
       end: "Early 2025",
-      note: "Web hosting platform. Led the frontend for two and a half years and built over 90% of the interface solo: auth, forms and validation, third-party integrations, the lot. Worked straight from design to production with the founders.",
+      note: "Led the front-end development of Brimble, a web hosting platform, independently creating over 90% of the interface. Implemented authentication, validation and third-party integrations, ensuring a seamless user experience.",
     },
     {
       role: "Software engineer",
@@ -79,11 +79,7 @@ export const profile = {
       href: "https://yusra.app",
       start: "Mar 2024",
       end: "Dec 2024",
-      note: "A wallet for every brand. Full-stack across both surfaces, sharing one API and one design system, shipping weekly.",
-      tree: [
-        { name: "Yusra app", blurb: "Discover stores, earn rewards, save and shop. React Native and Expo." },
-        { name: "Yusra web", blurb: "The same product in the browser, on Next.js." },
-      ],
+      note: "Full-stack engineer on Yusra, a brand-wallet shopping and rewards app. Built and shipped both the mobile app (React Native & Expo) and the web application.",
     },
     {
       role: "Hardware engineering intern",
@@ -91,7 +87,7 @@ export const profile = {
       href: "https://terrahaptix.com",
       start: "Sep 2024",
       end: "Dec 2024",
-      note: "A detour into hardware. Built and maintained drones, and learned how the physical side of a product gets tested and shipped.",
+      note: "Interned as a hardware engineer, learning the intricate workings of hardware devices and drone technology, building and maintaining drones.",
     },
     {
       role: "Full-stack developer",
@@ -99,7 +95,7 @@ export const profile = {
       href: "https://chimoney.io",
       start: "Mar 2024",
       end: "Jun 2024",
-      note: "Payments, wallets and payouts across the mobile and web apps, shipped iteratively in an agile team. Scrim, the app I built from zero, lives on as the Chimoney app.",
+      note: "Built payments, wallets and payouts features across Chimoney's mobile and web apps, shipping iteratively in an agile team.",
     },
     {
       role: "Mobile developer",
@@ -107,7 +103,7 @@ export const profile = {
       href: "https://goalr.world",
       start: "Jul 2023",
       end: "Mar 2024",
-      note: "Fitness app that syncs Apple Health, Strava, Garmin and Google Fit. Only mobile developer: designed, built and released it to both stores, idea to launch, on a tight clock.",
+      note: "Sole mobile developer at Goalr, a fitness app that syncs Apple Health, Strava, Garmin and Google Fit. Designed, built and released the app end-to-end on a tight timeline.",
     },
     {
       role: "Mobile developer",
@@ -115,11 +111,7 @@ export const profile = {
       href: "https://play.google.com/store/apps/details?id=com.usescrim.app",
       start: "2022",
       end: "2023",
-      note: "Rewards and payments app. Built the whole thing from zero in React Native and TypeScript, shipped it to both stores, then pitched in on the web app and API integrations.",
-      tree: [
-        { name: "Wallets", blurb: "Earn as you spend, swap crypto instantly, send money by email or phone." },
-        { name: "Plumbing", blurb: "Biometric auth, secure storage, push notifications, OTA updates." },
-      ],
+      note: "Sole mobile developer for Scrim, a rewards and payments app for earning as you spend, swapping crypto and sending global transfers. Built the entire app from the ground up with React Native (Expo) and TypeScript: wallets, biometric authentication, secure storage, push notifications and OTA updates. Shipped to iOS and Android, and contributed to the web app and API integrations.",
     },
     {
       role: "Software engineer intern",
@@ -127,7 +119,7 @@ export const profile = {
       href: "https://buildbrothers.com",
       start: "2021",
       end: "2022",
-      note: "Where it started. Built web apps at the BuildSpace hub, including WhoDeySell, and learned what production means.",
+      note: "Started my career at BuildBrothers' BuildSpace hub, building web applications and learning production software development.",
     },
   ] satisfies Job[],
 
