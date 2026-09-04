@@ -1,5 +1,6 @@
-import type { LinkKind, Project } from "@/data/profile";
+import type { LinkKind, Project, Skill } from "@/data/profile";
 import { Icon } from "./icons";
+import { SkillIcon } from "./skill-icon";
 
 const LINK_ICON: Record<LinkKind, (p: React.SVGProps<SVGSVGElement>) => JSX.Element> = {
   web: Icon.external,
@@ -38,7 +39,7 @@ export function Projects({ projects }: { projects: readonly Project[] }) {
 export function Skills({
   groups,
 }: {
-  groups: readonly { group: string; items: readonly string[] }[];
+  groups: readonly { group: string; items: readonly Skill[] }[];
 }) {
   return (
     <dl className="skills">
@@ -47,8 +48,9 @@ export function Skills({
           <dt>{g.group}</dt>
           <dd>
             {g.items.map((s) => (
-              <span key={s} className="skill">
-                {s}
+              <span key={s.name} className="skill">
+                {s.icon ? <SkillIcon name={s.icon} /> : null}
+                {s.name}
               </span>
             ))}
           </dd>

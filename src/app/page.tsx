@@ -33,7 +33,7 @@ const jsonLd = {
       email: `mailto:${profile.email}`,
       homeLocation: { "@type": "Place", name: profile.location },
       sameAs: Object.values(profile.socials),
-      knowsAbout: profile.skills.flatMap((g) => g.items),
+      knowsAbout: profile.skills.flatMap((g) => g.items.map((s) => s.name)),
     },
   ],
 };

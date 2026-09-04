@@ -50,7 +50,11 @@ Outside work I lead engineering at GenzTechies, where I mentor developers and he
 
 ## Skills
 
+- **Languages:** TypeScript, JavaScript, Python
 - **Mobile:** React Native, Expo, EAS, Reanimated, Skia
-- **Frontend:** TypeScript, React, Next.js, Zustand, Tailwind CSS
-- **Backend:** Node.js, Express, Python, PostgreSQL, Supabase, Firebase
-- **Infrastructure:** Docker, Cloudflare Workers, Vercel
+- **Frontend:** React, Next.js, Tailwind CSS, shadcn/ui, Radix UI, TanStack Query, TanStack Table, Zustand, Zod, Motion, Remotion
+- **Backend:** Node.js, Bun, Hono, Drizzle, Prisma, PostgreSQL, Redis, Better Auth, Temporal, Supabase, Firebase
+- **AI:** Vercel AI SDK, Anthropic, Gemini, Groq, OpenRouter, AWS Bedrock, Braintrust
+- **Infrastructure:** Docker, Coolify, Cloudflare Workers, Vercel, Turborepo, pnpm, Infisical, Sentry, PostHog, Resend
+- **Integrations:** Stripe, Paddle, Flutterwave, WhatsApp, Telegram
+- **Testing:** Vitest, Playwright

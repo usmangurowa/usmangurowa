@@ -1,3 +1,5 @@
+import type { SkillIconName } from "@/components/skill-icon";
+
 export type LinkKind = "web" | "appstore" | "playstore" | "github";
 
 export type ProjectLink = {
@@ -30,6 +32,11 @@ export type LedgerItem = {
   start: string;
   end?: string;
   note?: string;
+};
+
+export type Skill = {
+  name: string;
+  icon?: SkillIconName;
 };
 
 export const profile = {
@@ -237,11 +244,98 @@ export const profile = {
   ] satisfies LedgerItem[],
 
   skills: [
-    { group: "Mobile", items: ["React Native", "Expo", "EAS", "Reanimated", "Skia"] },
-    { group: "Frontend", items: ["TypeScript", "React", "Next.js", "Zustand", "Tailwind CSS"] },
-    { group: "Backend", items: ["Node.js", "Express", "Python", "PostgreSQL", "Supabase", "Firebase"] },
-    { group: "Infrastructure", items: ["Docker", "Cloudflare Workers", "Vercel"] },
-  ],
+    {
+      group: "Languages",
+      items: [
+        { name: "TypeScript", icon: "typescript" },
+        { name: "JavaScript", icon: "javascript" },
+        { name: "Python", icon: "python" },
+      ],
+    },
+    {
+      group: "Mobile",
+      items: [
+        { name: "React Native", icon: "react" },
+        { name: "Expo", icon: "expo" },
+        { name: "EAS" },
+        { name: "Reanimated" },
+        { name: "Skia" },
+      ],
+    },
+    {
+      group: "Frontend",
+      items: [
+        { name: "React", icon: "react" },
+        { name: "Next.js", icon: "nextjs" },
+        { name: "Tailwind CSS", icon: "tailwind" },
+        { name: "shadcn/ui", icon: "shadcn" },
+        { name: "Radix UI", icon: "radix" },
+        { name: "TanStack Query", icon: "reactquery" },
+        { name: "TanStack Table", icon: "tanstack" },
+        { name: "Zustand" },
+        { name: "Zod", icon: "zod" },
+        { name: "Motion" },
+        { name: "Remotion" },
+      ],
+    },
+    {
+      group: "Backend",
+      items: [
+        { name: "Node.js", icon: "node" },
+        { name: "Bun", icon: "bun" },
+        { name: "Hono", icon: "hono" },
+        { name: "Drizzle", icon: "drizzle" },
+        { name: "Prisma", icon: "prisma" },
+        { name: "PostgreSQL", icon: "postgres" },
+        { name: "Redis", icon: "redis" },
+        { name: "Better Auth", icon: "betterauth" },
+        { name: "Temporal", icon: "temporal" },
+        { name: "Supabase", icon: "supabase" },
+        { name: "Firebase", icon: "firebase" },
+      ],
+    },
+    {
+      group: "AI",
+      items: [
+        { name: "AI SDK", icon: "vercel" },
+        { name: "Anthropic", icon: "anthropic" },
+        { name: "Gemini", icon: "gemini" },
+        { name: "Groq" },
+        { name: "OpenRouter", icon: "openrouter" },
+        { name: "Bedrock" },
+        { name: "Braintrust", icon: "braintrust" },
+      ],
+    },
+    {
+      group: "Infrastructure",
+      items: [
+        { name: "Docker", icon: "docker" },
+        { name: "Coolify", icon: "coolify" },
+        { name: "Cloudflare Workers", icon: "cloudflare" },
+        { name: "Vercel", icon: "vercel" },
+        { name: "Turborepo", icon: "turborepo" },
+        { name: "pnpm", icon: "pnpm" },
+        { name: "Infisical" },
+        { name: "Sentry", icon: "sentry" },
+        { name: "PostHog", icon: "posthog" },
+        { name: "Resend", icon: "resend" },
+      ],
+    },
+    {
+      group: "Integrations",
+      items: [
+        { name: "Stripe", icon: "stripe" },
+        { name: "Paddle", icon: "paddle" },
+        { name: "Flutterwave" },
+        { name: "WhatsApp", icon: "whatsapp" },
+        { name: "Telegram", icon: "telegram" },
+      ],
+    },
+    {
+      group: "Testing",
+      items: [{ name: "Vitest", icon: "vitest" }, { name: "Playwright" }],
+    },
+  ] satisfies { group: string; items: Skill[] }[],
 
   sign: "If it has to run on a phone, in a browser and on a server, I'm your guy.",
 } as const;

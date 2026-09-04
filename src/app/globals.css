@@ -424,6 +424,12 @@
     color: var(--ink);
     font-size: 0.8438rem;
   }
+  .skill svg {
+    flex: none;
+    width: 13px;
+    height: 13px;
+    color: var(--muted);
+  }
   @media (max-width: 34rem) {
     .skills {
       grid-template-columns: 1fr;
