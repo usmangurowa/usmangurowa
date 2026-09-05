@@ -21,7 +21,7 @@ export function Footer() {
         </a>
       </p>
       <p className="colophon">
-        {profile.location}. Set in Bricolage Grotesque and Inter; signature in Caveat.
+        {profile.location}. Set in Bricolage Grotesque and Inter; signature in Yellowtail.
       </p>
     </footer>
   );
