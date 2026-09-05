@@ -1,12 +1,8 @@
 import type { SkillIconName } from "@/components/skill-icon";
+import { career } from "./career";
+import { resumePath } from "./resumes";
 
-export type LinkKind = "web" | "appstore" | "playstore" | "github";
-
-export type ProjectLink = {
-  label: string;
-  href: string;
-  kind: LinkKind;
-};
+export type { LinkKind, ProjectLink, Project } from "./career";
 
 export type Job = {
   role: string;
@@ -14,15 +10,8 @@ export type Job = {
   href?: string;
   start: string;
   end?: string;
-  note: string;
+  note?: string;
   tree?: { name: string; blurb: string }[];
-};
-
-export type Project = {
-  name: string;
-  when: string;
-  blurb: string;
-  links: ProjectLink[];
 };
 
 export type LedgerItem = {
@@ -40,165 +29,23 @@ export type Skill = {
 };
 
 export const profile = {
-  name: "Usman Hassan",
-  handle: "usmangurowa",
-  url: "https://www.usmangurowa.codes",
-  location: "Abuja, Nigeria",
+  name: career.name,
+  handle: career.handle,
+  url: career.url,
+  location: career.location,
   title: "Software engineer",
-  standfirst: "Software engineer building products end-to-end, from mobile and web to backend and the infrastructure they run on.",
+  standfirst: "Software engineer building mobile and web products with React Native, Expo and Next.js.",
   description:
-    "Software engineer building products end-to-end, from mobile and web to backend and the infrastructure they run on. Passionate about impactful products, tech communities & emerging technologies.",
-  email: "me@usmangurowa.dev",
-  resume: "/resume.pdf",
-  socials: {
-    x: "https://x.com/usmangurowa",
-    github: "https://github.com/usmangurowa",
-    linkedin: "https://linkedin.com/in/usmangurowa",
-  },
-
-  work: [
-    {
-      role: "Software engineering lead",
-      company: "GenzTechies",
-      href: "https://genztechies.com",
-      start: "Aug 2022",
-      end: "Now",
-      note: "Software Engineering Lead at GenzTechies, Africa's fastest-growing network for Gen-Zs in tech. Build the community's web applications, mentor developers and help organize hackathons.",
-    },
-    {
-      role: "Software engineer",
-      company: "Brimble",
-      href: "https://brimble.io",
-      start: "Aug 2022",
-      end: "Early 2025",
-      note: "Led the front-end development of Brimble, a web hosting platform, independently creating over 90% of the interface. Implemented authentication, validation and third-party integrations, ensuring a seamless user experience.",
-    },
-    {
-      role: "Software engineer",
-      company: "Yusra",
-      href: "https://yusra.app",
-      start: "Mar 2024",
-      end: "Dec 2024",
-      note: "Full-stack engineer on Yusra, a brand-wallet shopping and rewards app. Built and shipped both the mobile app (React Native & Expo) and the web application.",
-    },
-    {
-      role: "Hardware engineering intern",
-      company: "Terrahaptix",
-      href: "https://terrahaptix.com",
-      start: "Sep 2024",
-      end: "Dec 2024",
-      note: "Interned as a hardware engineer, learning the intricate workings of hardware devices and drone technology, building and maintaining drones.",
-    },
-    {
-      role: "Full-stack developer",
-      company: "Chimoney",
-      href: "https://chimoney.io",
-      start: "Mar 2024",
-      end: "Jun 2024",
-      note: "Built payments, wallets and payouts features across Chimoney's mobile and web apps, shipping iteratively in an agile team.",
-    },
-    {
-      role: "Mobile developer",
-      company: "Goalr",
-      href: "https://goalr.world",
-      start: "Jul 2023",
-      end: "Mar 2024",
-      note: "Sole mobile developer at Goalr, a fitness app that syncs Apple Health, Strava, Garmin and Google Fit. Designed, built and released the app end-to-end on a tight timeline.",
-    },
-    {
-      role: "Mobile developer",
-      company: "Scrim",
-      href: "https://play.google.com/store/apps/details?id=com.usescrim.app",
-      start: "2022",
-      end: "2023",
-      note: "Sole mobile developer for Scrim, a rewards and payments app for earning as you spend, swapping crypto and sending global transfers. Built the entire app from the ground up with React Native (Expo) and TypeScript: wallets, biometric authentication, secure storage, push notifications and OTA updates. Shipped to iOS and Android, and contributed to the web app and API integrations.",
-    },
-    {
-      role: "Software engineer intern",
-      company: "BuildBrothers",
-      href: "https://buildbrothers.com",
-      start: "2021",
-      end: "2022",
-      note: "Started my career at BuildBrothers' BuildSpace hub, building web applications and learning production software development.",
-    },
-  ] satisfies Job[],
-
-  projects: [
-    {
-      name: "Silo",
-      when: "2025 – 2026",
-      blurb:
-        "A mobile-first personal finance app with transaction intelligence, fund locking, group savings and bill splitting.",
-      links: [{ label: "usesilo.app", href: "https://usesilo.app", kind: "web" }],
-    },
-    {
-      name: "Kodo",
-      when: "2025 – 2026",
-      blurb: "A developer productivity and session tracking platform spanning mobile, web and IDE extensions.",
-      links: [{ label: "kodo.codes", href: "https://kodo.codes", kind: "web" }],
-    },
-    {
-      name: "Goalr",
-      when: "2023 – 2024",
-      blurb: "A fitness app that syncs Apple Health, Strava, Garmin and Google Fit to track walks, runs and rides. Built and released the mobile app solo.",
-      links: [
-        { label: "goalr.world", href: "https://goalr.world", kind: "web" },
-        {
-          label: "App Store",
-          href: "https://apps.apple.com/us/app/goalr-walk-run-ride-earn/id6465899289",
-          kind: "appstore",
-        },
-        {
-          label: "Google Play",
-          href: "https://play.google.com/store/apps/details?id=com.goalr",
-          kind: "playstore",
-        },
-      ],
-    },
-    {
-      name: "Scrim",
-      when: "2022 – 2023",
-      blurb:
-        "A rewards and payments app: earn as you spend, swap crypto instantly and send global transfers via email or phone. Built solo end-to-end and shipped to iOS and Android.",
-      links: [
-        {
-          label: "Google Play",
-          href: "https://play.google.com/store/apps/details?id=com.usescrim.app",
-          kind: "playstore",
-        },
-      ],
-    },
-    {
-      name: "Yusra",
-      when: "2024",
-      blurb: "A wallet for every brand, all in one app. Shoppers discover stores, create brand wallets, earn rewards, save and shop in one place. Built the mobile and web apps.",
-      links: [{ label: "yusra.app", href: "https://yusra.app", kind: "web" }],
-    },
-    {
-      name: "Brimble",
-      when: "2022 – 2025",
-      blurb: "A platform for shipping modern websites and applications with ease.",
-      links: [{ label: "brimble.io", href: "https://brimble.io", kind: "web" }],
-    },
-    {
-      name: "GenzTechies",
-      when: "2023",
-      blurb: "Africa's fastest growing network for Gen-Zs in tech.",
-      links: [{ label: "genztechies.com", href: "https://genztechies.com", kind: "web" }],
-    },
-    {
-      name: "Penter",
-      when: "2023 – 2024",
-      blurb: "A web application that helps you create dynamic designs.",
-      links: [{ label: "penter.xyz", href: "https://penter.xyz", kind: "web" }],
-    },
-    {
-      name: "WhoDeySell",
-      when: "2021 – 2022",
-      blurb: "A people driven marketplace for finding items near you, with price discovery and a Swap-It feature for trading items. Built while at BuildBrothers.",
-      links: [{ label: "whodeysell.com.ng", href: "https://whodeysell.com.ng", kind: "web" }],
-    },
-  ] satisfies Project[],
+    "Usman Hassan is a software engineer focused on React Native mobile apps and web interfaces, with full-stack experience in payments, wallets and developer tools.",
+  bio: [
+    "I build mobile and web products, and work across the APIs and infrastructure behind them. I started as a web developer in 2021 and won my first hackathon a year later with a mobile app.",
+    "I've been the sole mobile developer behind Scrim and Goalr, led front-end development at Brimble, and shipped mobile and web products at Chimoney and Yusra. More recently, I've built Silo and Kodo. At GenzTechies, I build community tools, mentor developers and help organize hackathons.",
+  ],
+  email: career.email,
+  resume: resumePath("general"),
+  socials: career.socials,
+  work: career.work satisfies Job[],
+  projects: career.projects,
 
   recognition: [
     {
@@ -217,23 +64,7 @@ export const profile = {
       note: "The win brought me into the GenzTechies core community, where I've since been a core organizer of two more hackathons.",
     },
   ] satisfies LedgerItem[],
-
-  education: [
-    {
-      name: "B.Sc. Computer Science",
-      detail: "Taraba State University",
-      href: "https://tsuniversity.edu.ng",
-      start: "2022",
-      end: "2025",
-    },
-    {
-      name: "Diploma in Computer Science",
-      detail: "NACEST",
-      start: "2018",
-      end: "2021",
-      note: "Nigerian Army College of Environmental Science and Technology.",
-    },
-  ] satisfies LedgerItem[],
+  education: career.education satisfies LedgerItem[],
 
   skills: [
     {
@@ -259,6 +90,8 @@ export const profile = {
       items: [
         { name: "React", icon: "react" },
         { name: "Next.js", icon: "nextjs" },
+        { name: "Vue.js", icon: "vue" },
+        { name: "Nuxt.js", icon: "nuxt" },
         { name: "Tailwind CSS", icon: "tailwind" },
         { name: "shadcn/ui", icon: "shadcn" },
         { name: "Radix UI", icon: "radix" },
@@ -328,5 +161,4 @@ export const profile = {
       items: [{ name: "Vitest", icon: "vitest" }, { name: "Playwright" }],
     },
   ] satisfies { group: string; items: Skill[] }[],
-
 } as const;

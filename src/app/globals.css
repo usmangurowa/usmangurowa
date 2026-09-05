@@ -222,10 +222,6 @@
     font-variant-numeric: tabular-nums;
     white-space: nowrap;
   }
-  .to::before {
-    content: "–";
-    margin: 0 0.3em;
-  }
   .note {
     flex: 1 0 100%;
     max-width: 30rem;
@@ -372,6 +368,26 @@
     display: flex;
     flex-wrap: wrap;
     gap: 0.3rem 1.1rem;
+  }
+  .work .project-stack {
+    margin: 0.55rem 0 0.7rem;
+    font-size: 0.8125rem;
+    line-height: 1.6;
+  }
+  .project-story {
+    max-width: 31rem;
+    margin: 0.9rem 0 1rem;
+    font-size: 0.875rem;
+  }
+  .project-story > div + div {
+    margin-top: 0.55rem;
+  }
+  .project-story dt {
+    color: var(--ink);
+    font-weight: 500;
+  }
+  .project-story dd {
+    margin: 0.1rem 0 0;
   }
   .cta {
     display: inline-flex;

@@ -9,6 +9,8 @@ const ICONS = {
   react: si.siReact,
   expo: si.siExpo,
   nextjs: si.siNextdotjs,
+  vue: si.siVuedotjs,
+  nuxt: si.siNuxt,
   tailwind: si.siTailwindcss,
   shadcn: si.siShadcnui,
   radix: si.siRadixui,

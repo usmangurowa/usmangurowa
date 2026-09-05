@@ -13,12 +13,25 @@ export function Projects({ projects }: { projects: readonly Project[] }) {
   return (
     <ul className="works">
       {projects.map((p) => (
-        <li key={p.name} className="work">
+        <li key={p.id} className="work">
           <div className="work-head">
             <h3>{p.name}</h3>
             <span className="work-when">{p.when}</span>
           </div>
           <p>{p.blurb}</p>
+          <p className="project-stack">
+            <span className="ink">Built with:</span> {p.stack.join(", ")}
+          </p>
+          {p.story ? (
+            <dl className="project-story">
+              {p.story.map((item) => (
+                <div key={item.label}>
+                  <dt>{item.label}</dt>
+                  <dd>{item.text}</dd>
+                </div>
+              ))}
+            </dl>
+          ) : null}
           <div className="ctas">
             {p.links.map((l) => {
               const I = LINK_ICON[l.kind];

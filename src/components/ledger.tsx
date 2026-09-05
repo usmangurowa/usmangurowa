@@ -5,7 +5,7 @@ function Figure({ start, end }: { start: string; end?: string }) {
   return (
     <span className="row-figure">
       {start}
-      {end ? <span className="to">{end}</span> : null}
+      {end ? <span className="to">{" – "}{end}</span> : null}
     </span>
   );
 }
@@ -29,7 +29,7 @@ export function WorkLedger({ jobs }: { jobs: readonly Job[] }) {
           </span>
           <span className="leader" aria-hidden="true" />
           <Figure start={job.start} end={job.end} />
-          <span className="note">{job.note}</span>
+          {job.note ? <span className="note">{job.note}</span> : null}
           {job.tree ? (
             <ul className="tree">
               {job.tree.map((t) => (
