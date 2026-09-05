@@ -49,6 +49,8 @@ export default function Page() {
       <Masthead />
       <Lede />
 
+      <Contributions />
+
       <section className="section" aria-labelledby="work">
         <h2 id="work">Work</h2>
         <WorkLedger jobs={profile.work} />
@@ -63,8 +65,6 @@ export default function Page() {
         <h2 id="projects">Projects</h2>
         <Projects projects={profile.projects} />
       </section>
-
-      <Contributions />
 
       <section className="section" aria-labelledby="recognition">
         <h2 id="recognition">Recognition</h2>
