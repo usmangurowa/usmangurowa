@@ -48,7 +48,7 @@ export const profile = {
   standfirst: "Software engineer building products end-to-end, from mobile and web to backend and the infrastructure they run on.",
   description:
     "Software engineer building products end-to-end, from mobile and web to backend and the infrastructure they run on. Passionate about impactful products, tech communities & emerging technologies.",
-  email: "usmanhassangu@gmail.com",
+  email: "me@usmangurowa.dev",
   resume: "/resume.pdf",
   socials: {
     x: "https://x.com/usmangurowa",
