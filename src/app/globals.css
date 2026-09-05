@@ -446,16 +446,11 @@
     padding-top: 1.4rem;
     border-top: 1px solid var(--rule);
   }
-  .sign {
-    max-width: 24rem;
-    margin: 0;
+  .sign-svg {
+    display: block;
+    width: min(100%, 22rem);
+    height: auto;
     color: var(--ink);
-    font-family: var(--font-bricolage), system-ui, sans-serif;
-    font-size: clamp(1.35rem, 4.5vw, 1.7rem);
-    font-weight: 600;
-    font-variation-settings: "opsz" 28, "wdth" 100;
-    letter-spacing: -0.02em;
-    line-height: 1.2;
   }
   .links {
     display: flex;

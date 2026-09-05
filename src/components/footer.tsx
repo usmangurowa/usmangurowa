@@ -1,10 +1,11 @@
 import { profile } from "@/data/profile";
 import { Icon } from "./icons";
+import { Signature } from "./signature";
 
 export function Footer() {
   return (
     <footer className="foot">
-      <p className="sign">{profile.sign}</p>
+      <Signature className="sign-svg" />
       <p className="links">
         <a href={`mailto:${profile.email}`} aria-label="Email">
           <Icon.mail className="i" />
@@ -20,7 +21,7 @@ export function Footer() {
         </a>
       </p>
       <p className="colophon">
-        {profile.location}. Set in Bricolage Grotesque and Inter.
+        {profile.location}. Set in Bricolage Grotesque and Inter; signature in Caveat.
       </p>
     </footer>
   );

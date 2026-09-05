@@ -329,5 +329,4 @@ export const profile = {
     },
   ] satisfies { group: string; items: Skill[] }[],
 
-  sign: "Want to chat? Just shoot me a DM with a direct question on X.",
 } as const;
