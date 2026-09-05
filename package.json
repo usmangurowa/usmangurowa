@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "resumes:generate": "node --experimental-strip-types scripts/generate-resumes.mjs",
+    "resumes:check": "node --experimental-strip-types scripts/generate-resumes.mjs --check"
   },
   "dependencies": {
     "clsx": "^2.1.1",
@@ -31,6 +33,7 @@
     "@types/react-dom": "^18",
     "eslint": "^8",
     "eslint-config-next": "14.2.4",
+    "pdfkit": "^0.20.2",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
