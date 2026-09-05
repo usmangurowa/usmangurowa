@@ -45,9 +45,9 @@ export const profile = {
   url: "https://www.usmangurowa.codes",
   location: "Abuja, Nigeria",
   title: "Software engineer",
-  standfirst: "Software engineer. Mobile first, whole stack after.",
+  standfirst: "Software engineer building products end-to-end, from mobile and web to backend and the infrastructure they run on.",
   description:
-    "Software engineer in Abuja building products end to end: mobile apps, web, APIs and the infrastructure underneath.",
+    "Software engineer building products end-to-end, from mobile and web to backend and the infrastructure they run on. Passionate about impactful products, tech communities & emerging technologies.",
   email: "usmanhassangu@gmail.com",
   resume: "/resume.pdf",
   socials: {
@@ -128,19 +128,19 @@ export const profile = {
       name: "Silo",
       when: "2025 – 2026",
       blurb:
-        "Personal finance for your phone. Transaction intelligence, fund locking, group savings and bill splitting.",
+        "A mobile-first personal finance app with transaction intelligence, fund locking, group savings and bill splitting.",
       links: [{ label: "usesilo.app", href: "https://usesilo.app", kind: "web" }],
     },
     {
       name: "Kodo",
       when: "2025 – 2026",
-      blurb: "Developer productivity and session tracking across mobile, web and your editor.",
+      blurb: "A developer productivity and session tracking platform spanning mobile, web and IDE extensions.",
       links: [{ label: "kodo.codes", href: "https://kodo.codes", kind: "web" }],
     },
     {
       name: "Goalr",
       when: "2023 – 2024",
-      blurb: "Walk, run, ride, earn. Syncs Apple Health, Strava, Garmin and Google Fit.",
+      blurb: "A fitness app that syncs Apple Health, Strava, Garmin and Google Fit to track walks, runs and rides. Built and released the mobile app solo.",
       links: [
         { label: "goalr.world", href: "https://goalr.world", kind: "web" },
         {
@@ -159,7 +159,7 @@ export const profile = {
       name: "Scrim",
       when: "2022 – 2023",
       blurb:
-        "Earn as you spend, swap crypto instantly, send money anywhere by email or phone. Lives on as the Chimoney app.",
+        "A rewards and payments app: earn as you spend, swap crypto instantly and send global transfers via email or phone. Built solo end-to-end and shipped to iOS and Android.",
       links: [
         {
           label: "Google Play",
@@ -171,31 +171,31 @@ export const profile = {
     {
       name: "Yusra",
       when: "2024",
-      blurb: "A wallet for every brand. Discover stores, earn rewards, save and shop in one app.",
+      blurb: "A wallet for every brand, all in one app. Shoppers discover stores, create brand wallets, earn rewards, save and shop in one place. Built the mobile and web apps.",
       links: [{ label: "yusra.app", href: "https://yusra.app", kind: "web" }],
     },
     {
       name: "Brimble",
       when: "2022 – 2025",
-      blurb: "Ship modern websites and apps without the ceremony.",
+      blurb: "A platform for shipping modern websites and applications with ease.",
       links: [{ label: "brimble.io", href: "https://brimble.io", kind: "web" }],
     },
     {
       name: "GenzTechies",
       when: "2023",
-      blurb: "The community's home on the web.",
+      blurb: "Africa's fastest growing network for Gen-Zs in tech.",
       links: [{ label: "genztechies.com", href: "https://genztechies.com", kind: "web" }],
     },
     {
       name: "Penter",
       when: "2023 – 2024",
-      blurb: "Dynamic designs, made in the browser.",
+      blurb: "A web application that helps you create dynamic designs.",
       links: [{ label: "penter.xyz", href: "https://penter.xyz", kind: "web" }],
     },
     {
       name: "WhoDeySell",
       when: "2021 – 2022",
-      blurb: "A people-driven marketplace with price discovery and a Swap-It feature for trading items.",
+      blurb: "A people driven marketplace for finding items near you, with price discovery and a Swap-It feature for trading items. Built while at BuildBrothers.",
       links: [{ label: "whodeysell.com.ng", href: "https://whodeysell.com.ng", kind: "web" }],
     },
   ] satisfies Project[],
@@ -206,7 +206,7 @@ export const profile = {
       detail: "GenzTechies Hackfest",
       href: "https://github.com/usmangurowa/safepal",
       start: "Jul 2022",
-      note: "My first hackathon. Won it with SafePal, a missing-persons app built on consent-based location sharing.",
+      note: "Won 1st place at the inaugural GenzTechies Hackfest, my first-ever hackathon, with SafePal, a mobile app for reporting missing persons that uses consent-based location tracking to give security agencies the data they need to find them.",
     },
     {
       name: "Core organiser",
@@ -214,7 +214,7 @@ export const profile = {
       href: "https://genztechies.com",
       start: "2023",
       end: "Now",
-      note: "Two hackathons organised since winning one.",
+      note: "The win brought me into the GenzTechies core community, where I've since been a core organizer of two more hackathons.",
     },
   ] satisfies LedgerItem[],
 
@@ -329,5 +329,5 @@ export const profile = {
     },
   ] satisfies { group: string; items: Skill[] }[],
 
-  sign: "If it has to run on a phone, in a browser and on a server, I'm your guy.",
+  sign: "Want to chat? Just shoot me a DM with a direct question on X.",
 } as const;

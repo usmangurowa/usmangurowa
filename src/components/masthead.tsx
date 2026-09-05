@@ -55,18 +55,23 @@ export function Lede() {
   return (
     <>
       <p className="lede">
-        I build products end to end: the app in your pocket, the site beside it, the API
-        underneath and the box it runs on. Shipping since 2021, mostly{" "}
-        <span className="ink">TypeScript</span>, <span className="ink">React Native</span> and{" "}
-        <span className="ink">Next.js</span>, usually as the only mobile engineer in the room.
+        I&apos;m a well-rounded software engineer who owns products end-to-end, from architecture,
+        PRDs and database design to mobile apps, web frontends, APIs and deployment. I started out
+        in 2021 as a web developer and won my first hackathon a year later with a mobile app.
       </p>
       <p className="lede">
-        Outside work I lead engineering at{" "}
+        Since then I&apos;ve been the sole mobile developer behind apps like{" "}
+        <span className="ink">Scrim</span> and <span className="ink">Goalr</span>, led front-end
+        development at <span className="ink">Brimble</span>, shipped full-stack products at{" "}
+        <span className="ink">Chimoney</span> and <span className="ink">Yusra</span>, and recently
+        built <span className="ink">Silo</span>, a personal finance app, and{" "}
+        <span className="ink">Kodo</span>, a developer productivity platform. As Software
+        Engineering Lead at{" "}
         <a href="https://genztechies.com" target="_blank" rel="noopener">
           GenzTechies
         </a>
-        , where I mentor developers and help run the kind of hackathon that got me started. Easy to
-        reach at <a href={`mailto:${profile.email}`}>{profile.email}</a>.
+        , I mentor developers and organize hackathons. Easy to reach at{" "}
+        <a href={`mailto:${profile.email}`}>{profile.email}</a>.
       </p>
       <p className="actions">
         <a className="button" href={profile.resume} download>

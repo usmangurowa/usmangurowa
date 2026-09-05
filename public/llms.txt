@@ -2,9 +2,8 @@
 
 ## About
 
-Software engineer in Abuja, Nigeria. Mobile first, whole stack after.
-I build products end to end: the app in your pocket, the site beside it, the API underneath and the box it runs on. Shipping since 2021, mostly TypeScript, React Native and Next.js, usually as the only mobile engineer in the room.
-Outside work I lead engineering at GenzTechies, where I mentor developers and help run hackathons.
+Software engineer building products end-to-end, from mobile and web to backend and the infrastructure they run on. Passionate about impactful products, tech communities & emerging technologies.
+I'm a well-rounded software engineer who owns products end-to-end, from architecture, PRDs and database design to mobile apps, web frontends, APIs and deployment. I started out in 2021 as a web developer and won my first hackathon a year later with a mobile app. Since then I've been the sole mobile developer behind apps like Scrim and Goalr, led front-end development at Brimble (a web hosting platform), shipped full-stack products at Chimoney and Yusra, and recently built Silo, a personal finance app, and Kodo, a developer productivity platform spanning mobile, web and IDE extensions. As Software Engineering Lead at GenzTechies, I mentor developers and organize hackathons.
 
 ## Links
 
@@ -28,20 +27,20 @@ Outside work I lead engineering at GenzTechies, where I mentor developers and he
 
 ## Projects
 
-- [Silo](https://usesilo.app): Personal finance app with transaction intelligence, fund locking, group savings and bill splitting.
-- [Kodo](https://kodo.codes): Developer productivity and session tracking across mobile, web and IDE extensions.
-- [Goalr](https://goalr.world): Walk, run, ride, earn. On the [App Store](https://apps.apple.com/us/app/goalr-walk-run-ride-earn/id6465899289) and [Google Play](https://play.google.com/store/apps/details?id=com.goalr).
-- [Scrim](https://play.google.com/store/apps/details?id=com.usescrim.app): Rewards and payments app, now the Chimoney app.
-- [Yusra](https://yusra.app): A wallet for every brand.
-- [Brimble](https://brimble.io): Ship modern websites and apps.
-- [GenzTechies](https://genztechies.com): Community website.
-- [Penter](https://penter.xyz): Dynamic designs in the browser.
-- [WhoDeySell](https://whodeysell.com.ng): People-driven marketplace with price discovery and item swapping.
+- [Silo](https://usesilo.app): A mobile-first personal finance app with transaction intelligence, fund locking, group savings and bill splitting.
+- [Kodo](https://kodo.codes): A developer productivity and session tracking platform spanning mobile, web and IDE extensions.
+- [Goalr](https://goalr.world): A fitness app that syncs Apple Health, Strava, Garmin and Google Fit to track walks, runs and rides. Built and released the mobile app solo. On the [App Store](https://apps.apple.com/us/app/goalr-walk-run-ride-earn/id6465899289) and [Google Play](https://play.google.com/store/apps/details?id=com.goalr).
+- [Scrim](https://play.google.com/store/apps/details?id=com.usescrim.app): A rewards and payments app: earn as you spend, swap crypto instantly and send global transfers via email or phone. Built solo end-to-end and shipped to iOS and Android.
+- [Yusra](https://yusra.app): A wallet for every brand, all in one app. Shoppers discover stores, create brand wallets, earn rewards, save and shop in one place. Built the mobile and web apps.
+- [Brimble](https://brimble.io): A platform for shipping modern websites and applications with ease.
+- [GenzTechies](https://genztechies.com): Africa's fastest growing network for Gen-Zs in tech.
+- [Penter](https://penter.xyz): A web application that helps you create dynamic designs.
+- [WhoDeySell](https://whodeysell.com.ng): A people driven marketplace for finding items near you, with price discovery and a Swap-It feature for trading items. Built while at BuildBrothers.
 
 ## Recognition
 
-- 1st place, GenzTechies Hackfest (Jul 2022) with SafePal, a missing-persons app built on consent-based location sharing.
-- Core organiser of GenzTechies hackathons (2023 – Now).
+- 1st place, GenzTechies Hackfest (Jul 2022). Won with SafePal, a mobile app for reporting missing persons that uses consent-based location tracking to give security agencies the data they need to find them.
+- Core organiser of GenzTechies hackathons (2023 – Now). The win brought me into the GenzTechies core community, where I've since been a core organizer of two more hackathons.
 
 ## Education
 
