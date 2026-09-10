@@ -23,7 +23,7 @@ export type CareerJob = {
 // Dates and existing titles follow the portfolio; additional roles were confirmed
 // against the supplied CVs. Aviato has no supported responsibility bullets yet.
 export const career = {
-  updatedAt: "2026-09-05",
+  updatedAt: "2026-09-11",
   name: "Usman Hassan",
   handle: "usmangurowa",
   url: "https://usmangurowa.dev",
@@ -174,22 +174,6 @@ export const career = {
   ] satisfies CareerJob[],
   projects: [
     {
-      id: "silo",
-      name: "Silo",
-      when: "2025 - 2026",
-      blurb: "A mobile-first personal finance app with transaction intelligence, fund locking, group savings and bill splitting.",
-      stack: ["React Native", "Expo", "TypeScript", "Zustand", "Tailwind CSS"],
-      links: [{ label: "usesilo.app", href: "https://usesilo.app", kind: "web" }],
-    },
-    {
-      id: "kodo",
-      name: "Kodo",
-      when: "2025 - 2026",
-      blurb: "A developer productivity and session tracking platform spanning mobile, web and IDE extensions.",
-      stack: ["TypeScript", "React Native", "Expo", "Next.js"],
-      links: [{ label: "kodo.codes", href: "https://kodo.codes", kind: "web" }],
-    },
-    {
       id: "goalr",
       name: "Goalr",
       when: "2023 - 2024",
@@ -249,6 +233,22 @@ export const career = {
       blurb: "Web applications for a community of young people working in technology.",
       stack: ["Next.js", "TypeScript", "PostgreSQL", "Prisma", "Tailwind CSS"],
       links: [{ label: "genztechies.com", href: "https://genztechies.com", kind: "web" }],
+    },
+    {
+      id: "silo",
+      name: "Silo",
+      when: "2025 - 2026",
+      blurb: "A mobile-first personal finance app with transaction intelligence, fund locking, group savings and bill splitting.",
+      stack: ["React Native", "Expo", "TypeScript", "Zustand", "Tailwind CSS"],
+      links: [{ label: "silo.ng", href: "https://silo.ng", kind: "web" }],
+    },
+    {
+      id: "kodo",
+      name: "Kodo",
+      when: "2025 - 2026",
+      blurb: "A developer productivity and session tracking platform spanning mobile, web and IDE extensions.",
+      stack: ["TypeScript", "React Native", "Expo", "Next.js"],
+      links: [{ label: "kodo.codes", href: "https://kodo.codes", kind: "web" }],
     },
     {
       id: "penter",

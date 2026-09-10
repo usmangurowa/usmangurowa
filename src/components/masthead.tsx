@@ -1,5 +1,4 @@
 import { profile } from "@/data/profile";
-import Link from "next/link";
 import { Icon } from "./icons";
 import { ThemeToggle } from "./theme-toggle";
 
@@ -65,9 +64,6 @@ export function Lede() {
           <Icon.download className="i" />
           Download résumé
         </a>
-        <Link className="button quiet" href="/resume">
-          All résumé versions
-        </Link>
         <a className="button quiet" href={profile.socials.x} target="_blank" rel="noopener">
           Message on
           <Icon.x className="i" aria-label="X" role="img" />

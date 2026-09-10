@@ -37,16 +37,6 @@ I've been the sole mobile developer behind Scrim and Goalr, led front-end develo
 
 ## Projects
 
-### Silo (2025 – 2026)
-
-[Silo](https://usesilo.app): A mobile-first personal finance app with transaction intelligence, fund locking, group savings and bill splitting.
-Built with: React Native, Expo, TypeScript, Zustand, Tailwind CSS.
-
-### Kodo (2025 – 2026)
-
-[Kodo](https://kodo.codes): A developer productivity and session tracking platform spanning mobile, web and IDE extensions.
-Built with: TypeScript, React Native, Expo, Next.js.
-
 ### Goalr (2023 – 2024)
 
 [Goalr](https://goalr.world): A fitness app that brings walks, runs and rides into one place.
@@ -81,6 +71,16 @@ Built with: Next.js, TypeScript, Tailwind CSS, shadcn/ui.
 
 [GenzTechies](https://genztechies.com): Web applications for a community of young people working in technology.
 Built with: Next.js, TypeScript, PostgreSQL, Prisma, Tailwind CSS.
+
+### Silo (2025 – 2026)
+
+[Silo](https://silo.ng): A mobile-first personal finance app with transaction intelligence, fund locking, group savings and bill splitting.
+Built with: React Native, Expo, TypeScript, Zustand, Tailwind CSS.
+
+### Kodo (2025 – 2026)
+
+[Kodo](https://kodo.codes): A developer productivity and session tracking platform spanning mobile, web and IDE extensions.
+Built with: TypeScript, React Native, Expo, Next.js.
 
 ### Penter (2023 – 2024)
 
