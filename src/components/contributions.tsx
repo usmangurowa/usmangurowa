@@ -1,6 +1,8 @@
 import { profile } from "@/data/profile";
 import { getContributions, monthLabels } from "@/lib/github";
 
+const DAY_CLASSES = ["day", "day l1", "day l2", "day l3", "day l4"];
+
 export async function Contributions() {
   const cal = await getContributions(profile.handle);
   if (!cal) return null;
@@ -13,12 +15,12 @@ export async function Contributions() {
       <h2 id="contributions">Contributions</h2>
       <p className="calnote">
         {total} contributions in the last year on{" "}
-        <a href={profile.socials.github} target="_blank" rel="noopener">
+        <a href={profile.socials.github} target="_blank" rel="noopener noreferrer">
           GitHub
         </a>
         .
       </p>
-      <div className="calscroll">
+      <div className="calscroll" tabIndex={0} role="region" aria-label="Contribution calendar">
         <div className="calmonths">
           {labels.map((m) => (
             <span key={m.column} style={{ gridColumn: m.column }}>
@@ -31,9 +33,17 @@ export async function Contributions() {
           role="img"
           aria-label={`${total} GitHub contributions in the last year`}
         >
-          {cal.weeks.flatMap((week) =>
+          {cal.weeks.flatMap((week, weekIndex) =>
             week.map((d) => (
-              <i key={d.date} className={`day l${d.level}`} title={`${d.count} on ${d.date}`} />
+              <i
+                key={d.date}
+                className={DAY_CLASSES[d.level]}
+                style={{
+                  gridColumn: weekIndex + 1,
+                  gridRow: new Date(d.date + "T00:00:00Z").getUTCDay() + 1,
+                }}
+                title={`${d.count} on ${d.date}`}
+              />
             ))
           )}
         </div>

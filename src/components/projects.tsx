@@ -36,7 +36,7 @@ export function Projects({ projects }: { projects: readonly Project[] }) {
             {p.links.map((l) => {
               const I = LINK_ICON[l.kind];
               return (
-                <a key={l.href} className="cta" href={l.href} target="_blank" rel="noopener">
+                <a key={l.href} className="cta" href={l.href} target="_blank" rel="noopener noreferrer">
                   <I className="i" aria-hidden="true" />
                   <span>{l.label}</span>
                 </a>

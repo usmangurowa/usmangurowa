@@ -10,13 +10,13 @@ export function Footer() {
         <a href={`mailto:${profile.email}`} aria-label="Email">
           <Icon.mail className="i" />
         </a>
-        <a href={profile.socials.x} target="_blank" rel="noopener" aria-label="X">
+        <a href={profile.socials.x} target="_blank" rel="noopener noreferrer" aria-label="X">
           <Icon.x className="i" />
         </a>
-        <a href={profile.socials.github} target="_blank" rel="noopener" aria-label="GitHub">
+        <a href={profile.socials.github} target="_blank" rel="noopener noreferrer" aria-label="GitHub">
           <Icon.github className="i" />
         </a>
-        <a href={profile.socials.linkedin} target="_blank" rel="noopener" aria-label="LinkedIn">
+        <a href={profile.socials.linkedin} target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
           <Icon.linkedin className="i" />
         </a>
       </p>

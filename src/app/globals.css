@@ -25,10 +25,6 @@
 
   html {
     background: var(--paper);
-    scrollbar-width: none;
-  }
-  html::-webkit-scrollbar {
-    display: none;
   }
 
   body {
@@ -123,7 +119,6 @@
     flex: none;
     width: 15px;
     height: 15px;
-    fill: none;
     color: inherit;
   }
 
@@ -277,10 +272,6 @@
     --cell: 9px;
     --cellgap: 3px;
     overflow-x: auto;
-    scrollbar-width: none;
-  }
-  .calscroll::-webkit-scrollbar {
-    display: none;
   }
   .calmonths {
     display: grid;

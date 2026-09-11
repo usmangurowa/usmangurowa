@@ -3,7 +3,6 @@ import type { Config } from "tailwindcss";
 const config = {
   darkMode: ["class"],
   content: ["./src/**/*.{ts,tsx}"],
-  safelist: ["l0", "l1", "l2", "l3", "l4"],
   theme: {
     extend: {
       fontFamily: {

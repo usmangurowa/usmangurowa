@@ -19,7 +19,7 @@ export function WorkLedger({ jobs }: { jobs: readonly Job[] }) {
             <span>
               <span className="ink">{job.role}</span>,{" "}
               {job.href ? (
-                <a href={job.href} target="_blank" rel="noopener">
+                <a href={job.href} target="_blank" rel="noopener noreferrer">
                   {job.company}
                 </a>
               ) : (
@@ -61,7 +61,7 @@ export function Ledger({ items }: { items: readonly LedgerItem[] }) {
                 <>
                   ,{" "}
                   {it.href ? (
-                    <a href={it.href} target="_blank" rel="noopener">
+                    <a href={it.href} target="_blank" rel="noopener noreferrer">
                       {it.detail}
                     </a>
                   ) : (

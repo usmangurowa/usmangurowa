@@ -9,12 +9,32 @@ export type Calendar = {
   weeks: Day[][];
 };
 
-const LEVELS: Record<string, Day["level"]> = {
+const LEVELS = {
   NONE: 0,
   FIRST_QUARTILE: 1,
   SECOND_QUARTILE: 2,
   THIRD_QUARTILE: 3,
   FOURTH_QUARTILE: 4,
+} as const;
+
+type ContributionResponse = {
+  data?: {
+    user: {
+      contributionsCollection: {
+        contributionCalendar: {
+          totalContributions: number;
+          weeks: {
+            contributionDays: {
+              date: string;
+              contributionCount: number;
+              contributionLevel: keyof typeof LEVELS;
+            }[];
+          }[];
+        };
+      };
+    } | null;
+  } | null;
+  errors?: { message: string }[];
 };
 
 const QUERY = `
@@ -50,23 +70,32 @@ export async function getContributions(login: string): Promise<Calendar | null> 
       body: JSON.stringify({ query: QUERY, variables: { login } }),
       next: { revalidate: 60 * 60 * 24 },
     });
-    if (!res.ok) return null;
+    if (!res.ok) {
+      console.error(`GitHub contributions request failed: HTTP ${res.status}.`);
+      return null;
+    }
 
-    const json = await res.json();
+    const json: ContributionResponse = await res.json();
     const cal = json?.data?.user?.contributionsCollection?.contributionCalendar;
-    if (!cal) return null;
+    if (json?.errors?.length || !cal) {
+      console.error("GitHub contributions response did not contain a complete calendar.");
+      return null;
+    }
 
     return {
-      total: cal.totalContributions as number,
-      weeks: (cal.weeks as any[]).map((w) =>
-        (w.contributionDays as any[]).map((d) => ({
-          date: d.date as string,
-          count: d.contributionCount as number,
-          level: LEVELS[d.contributionLevel as string] ?? 0,
-        }))
+      total: cal.totalContributions,
+      weeks: cal.weeks.map((w) =>
+        w.contributionDays.map((d) => {
+          const level = LEVELS[d.contributionLevel];
+          if (typeof level !== "number") {
+            throw new Error("GitHub returned an unsupported contribution level.");
+          }
+          return { date: d.date, count: d.contributionCount, level };
+        })
       ),
     };
   } catch {
+    console.error("GitHub contributions could not be fetched or read.");
     return null;
   }
 }
