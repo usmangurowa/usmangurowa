@@ -7,10 +7,12 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "contributions:check": "node --experimental-strip-types scripts/check-contributions.mjs",
     "resumes:generate": "node --experimental-strip-types scripts/generate-resumes.mjs",
     "resumes:check": "node --experimental-strip-types scripts/generate-resumes.mjs --check"
   },
   "dependencies": {
+    "cheerio": "^1.2.0",
     "clsx": "^2.1.1",
     "gray-matter": "^4.0.3",
     "next": "14.2.4",

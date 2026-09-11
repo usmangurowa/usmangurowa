@@ -36,9 +36,8 @@ export default async function Image() {
   ]);
 
   const gap = 4;
-  const weeks = cal?.weeks.slice(-52) ?? [];
-  // Fill the 1032px content width: 52 columns, 51 gaps
-  const cell = Math.floor((1032 - 51 * gap) / 52);
+  const weeks = cal?.weeks ?? [];
+  const cell = weeks.length ? Math.floor((1032 - (weeks.length - 1) * gap) / weeks.length) : 0;
 
   return new ImageResponse(
     (
@@ -78,7 +77,15 @@ export default async function Image() {
             <div style={{ fontSize: 22, marginBottom: 18 }}>{caption}</div>
             <div style={{ display: "flex", gap }}>
               {weeks.map((week, wi) => (
-                <div key={wi} style={{ display: "flex", flexDirection: "column", gap }}>
+                <div
+                  key={wi}
+                  style={{
+                    display: "flex",
+                    flexDirection: "column",
+                    gap,
+                    marginTop: new Date(week[0].date + "T00:00:00Z").getUTCDay() * (cell + gap),
+                  }}
+                >
                   {week.map((d) => (
                     <div
                       key={d.date}

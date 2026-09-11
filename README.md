@@ -11,11 +11,22 @@ Career facts, employment, project stacks and delivery stories live in
 `src/data/career.ts`. The homepage presentation, biography and skills live in
 `src/data/profile.ts`. Blog posts are MDX files in `content/`.
 
-## Environment
+## GitHub contributions
 
-| Variable       | Purpose                                                                          |
-| -------------- | -------------------------------------------------------------------------------- |
-| `GITHUB_TOKEN` | Read-only token for the GitHub GraphQL API. Powers the contributions heatmap; the section is hidden if unset. |
+No environment variables or GitHub token are required. The homepage and social
+preview read GitHub's public contribution calendar for the profile, including
+any anonymized private-contribution counts the profile owner has made public.
+This deliberately uses the same source visitors see on GitHub rather than
+token-scoped GraphQL totals, which can differ.
+
+Requests are cached and revalidated hourly on subsequent visits, not in real
+time. Social networks may also cache preview images independently. The adapter
+validates each day's date, count and level, checks for missing/duplicate dates,
+and reconciles the sum with GitHub's displayed total. GitHub's calendar HTML is
+not a versioned API; if its format changes or a request fails, the graph is
+omitted and a bounded server diagnostic is logged instead of inventing counts.
+
+Run `pnpm contributions:check` for parser and request regression checks.
 
 ## Résumés
 
