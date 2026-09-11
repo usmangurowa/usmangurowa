@@ -29,6 +29,11 @@ const jsonLd = {
       url: profile.url,
       name: profile.name,
       jobTitle: profile.title,
+      worksFor: {
+        "@type": "Organization",
+        name: profile.currentRole.company,
+        url: profile.currentRole.href,
+      },
       description: profile.description,
       email: `mailto:${profile.email}`,
       homeLocation: { "@type": "Place", name: profile.location },

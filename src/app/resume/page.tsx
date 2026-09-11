@@ -25,7 +25,7 @@ export default function ResumePage() {
       <h1 className="masthead-title">Résumés</h1>
       <p className="lede">
         Four versions of the same career history, with different emphasis.
-        The general version covers mobile, web and full-stack work.
+        The general version covers mobile, web, desktop and full-stack work.
         Each is a text-based PDF.
       </p>
       <section className="section" aria-label="Résumé downloads">

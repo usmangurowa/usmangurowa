@@ -4,12 +4,13 @@ import { Signature } from "./signature";
 
 export function Footer() {
   return (
-    <footer className="foot">
-      <Signature className="sign-svg" />
+    <footer className="foot" aria-labelledby="contact">
+      <h2 id="contact">Get in touch</h2>
+      <p className="contact-copy">
+        For engineering roles, collaborations, or a conversation about something you&apos;re building, email{" "}
+        <a className="ink" href={`mailto:${profile.email}`}>{profile.email}</a>.
+      </p>
       <p className="links">
-        <a href={`mailto:${profile.email}`} aria-label="Email">
-          <Icon.mail className="i" />
-        </a>
         <a href={profile.socials.x} target="_blank" rel="noopener noreferrer" aria-label="X">
           <Icon.x className="i" />
         </a>
@@ -20,6 +21,7 @@ export function Footer() {
           <Icon.linkedin className="i" />
         </a>
       </p>
+      <Signature className="sign-svg" />
       <p className="colophon">
         {profile.location}. Set in Bricolage Grotesque and Inter; signature in Yellowtail.
       </p>

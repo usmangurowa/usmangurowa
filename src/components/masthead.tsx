@@ -54,19 +54,20 @@ export function Masthead() {
 export function Lede() {
   return (
     <>
-      <p className="lede">{profile.bio[0]}</p>
       <p className="lede">
-        {profile.bio[1]} Easy to reach at{" "}
-        <a href={`mailto:${profile.email}`}>{profile.email}</a>.
+        I&apos;m currently a {profile.currentRole.role} at{" "}
+        <a href={profile.currentRole.href} target="_blank" rel="noopener noreferrer">{profile.currentRole.company}</a>,{" "}
+        {profile.currentFocus}
       </p>
+      {profile.bio.map((paragraph) => <p className="lede" key={paragraph}>{paragraph}</p>)}
       <p className="actions">
         <a className="button" href={profile.resume} download>
           <Icon.download className="i" />
           Download résumé
         </a>
-        <a className="button quiet" href={profile.socials.x} target="_blank" rel="noopener noreferrer">
-          Message on
-          <Icon.x className="i" aria-label="X" role="img" />
+        <a className="button quiet" href={`mailto:${profile.email}`}>
+          <Icon.mail className="i" />
+          Email me
         </a>
       </p>
     </>
