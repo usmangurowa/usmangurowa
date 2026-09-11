@@ -1,0 +1,120 @@
+# Usman Hassan
+
+## About
+
+Software engineer building mobile, web and desktop products.
+
+I'm currently a Software Engineer at [Levenza](https://levenza.com/), working on desktop experiences, backend services and AI-agent integrations.
+
+I've built and released apps as the sole mobile developer at Goalr and Scrim, led front-end development at Brimble, and worked across mobile and web at Yusra and Chimoney.
+
+At GenzTechies, I build community tools, mentor developers and help organize hackathons.
+
+## Links
+
+- [Website](https://usmangurowa.dev/)
+- [X (Twitter)](https://x.com/usmangurowa)
+- [GitHub](https://github.com/usmangurowa)
+- [LinkedIn](https://linkedin.com/in/usmangurowa)
+- [Email](mailto:me@usmangurowa.dev)
+- [All résumés](https://usmangurowa.dev/resume)
+- [General résumé (PDF)](https://usmangurowa.dev/resume/general.pdf)
+- [Backend résumé (PDF)](https://usmangurowa.dev/resume/backend.pdf)
+- [Frontend résumé (PDF)](https://usmangurowa.dev/resume/frontend.pdf)
+- [Mobile résumé (PDF)](https://usmangurowa.dev/resume/mobile.pdf)
+
+## Work
+
+- **Levenza** — Software Engineer (Mar 2025 – Now). Build desktop features and backend services for an AI platform that automates administrative work. My contributions include conversational interfaces, device-session management, email-attachment processing, and improving the reliability and monitoring of agent workflows.
+- **GenzTechies** — Software engineering lead (Aug 2022 – Now). Build the community's web applications, mentor developers and help organize hackathons.
+- **Brimble** — Software engineer (Aug 2022 – Early 2025). Led front-end development for a web hosting platform, including authentication and third-party integrations.
+- **Yusra** — Software engineer (Mar 2024 – Dec 2024). Built and shipped the mobile and web applications for a brand-wallet shopping and rewards product.
+- **Terrahaptix** — Hardware engineering intern (Sep 2024 – Dec 2024). Built and maintained drones during a hardware engineering internship.
+- **Chimoney** — Full-stack developer (Mar 2024 – Jun 2024). Built payments, wallets and payouts features across Chimoney's mobile and web apps, shipping iteratively in an agile team.
+- **Goalr** — Mobile developer (Jul 2023 – Mar 2024). Sole mobile developer, responsible for the fitness app from interface development through release.
+- **Aviato** — Backend Engineer (2023 – 2024).
+- **Scrim** — Mobile developer (2022 – 2023). Built and released the rewards and payments app as the sole mobile developer; also contributed to the web app and API integrations.
+- **EarlyBean** — Mobile app developer (Aug 2022 – Mar 2023). Sole mobile developer for a finance app that helps families teach children about money. Worked on the interface and business logic.
+- **Cykmore** — Front-end engineer (Aug 2022 – Jan 2023). Built front-end features with Vue.js and Nuxt.js for a recruitment technology company, working alongside other developers.
+- **BuildBrothers** — Software engineer intern (2021 – 2022). Started my career at BuildBrothers' BuildSpace hub, building web applications and learning production software development.
+
+## Projects
+
+### Goalr (2023 – 2024)
+
+[Goalr](https://goalr.world): A fitness app that brings walks, runs and rides into one place.
+Built with: React Native, Expo, TypeScript.
+My role: Sole mobile developer, responsible for the interface, integrations and release.
+What I built: Connected Apple Health, Strava, Garmin and Google Fit so the app could sync activity from different services.
+Shipped: Released to the App Store and Google Play on a tight timeline.
+On the [App Store](https://apps.apple.com/us/app/goalr-walk-run-ride-earn/id6465899289) and [Google Play](https://play.google.com/store/apps/details?id=com.goalr).
+
+### Scrim (2022 – 2023)
+
+[Scrim](https://play.google.com/store/apps/details?id=com.usescrim.app): A rewards and payments app for earning as you spend and sending transfers by email or phone.
+Built with: React Native, Expo, TypeScript, Firebase, Reanimated.
+My role: Sole mobile developer, building the interface and business logic from the ground up.
+What I built: Wallet and payment flows, biometric authentication, secure storage, push notifications and over-the-air updates. Also contributed to web features and API integrations for payments, crypto swaps and global transfers.
+Shipped: Released to iOS and Android. The original Google Play listing now belongs to the Chimoney app.
+
+### Yusra (2024)
+
+[Yusra](https://yusra.app): A brand-wallet shopping and rewards product.
+Built with: React Native, Expo, Next.js, TypeScript, PostgreSQL, Supabase.
+My role: Full-stack engineer across the mobile app and web application.
+What I built: React Native and Expo mobile experiences alongside a Next.js web application, covering store discovery, brand wallets, rewards and shopping.
+Shipped: Both the mobile and web applications.
+
+### Brimble (2022 – 2025)
+
+[Brimble](https://brimble.io): A platform for shipping modern websites and applications. Led the front-end implementation, including authentication, validation and third-party integrations.
+Built with: Next.js, TypeScript, Tailwind CSS, shadcn/ui.
+
+### GenzTechies (2023)
+
+[GenzTechies](https://genztechies.com): Web applications for a community of young people working in technology.
+Built with: Next.js, TypeScript, PostgreSQL, Prisma, Tailwind CSS.
+
+### Silo (2025 – 2026)
+
+[Silo](https://silo.ng): A mobile-first personal finance app with transaction intelligence, fund locking, group savings and bill splitting.
+Built with: React Native, Expo, TypeScript, Zustand, Tailwind CSS.
+
+### Kodo (2025 – 2026)
+
+[Kodo](https://kodo.codes): A developer productivity and session tracking platform spanning mobile, web and IDE extensions.
+Built with: TypeScript, React Native, Expo, Next.js.
+
+### Penter (2023 – 2024)
+
+[Penter](https://penter.xyz): A design tool that turns CSV or JSON data into dynamic designs using text, images and colours.
+Built with: Next.js, TypeScript, PostgreSQL, Prisma, Tailwind CSS.
+
+### WhoDeySell (2021 – 2022)
+
+[WhoDeySell](https://whodeysell.com.ng): A local marketplace with price discovery and a Swap-It feature for trading items. Built while at BuildBrothers.
+Built with: React, Next.js, JavaScript.
+
+## Recognition
+
+- 1st place, GenzTechies Hackfest (Jul 2022). Won with SafePal, a mobile app for reporting missing persons that uses consent-based location tracking to give security agencies the data they need to find them.
+- Core organiser of GenzTechies hackathons (2023 – Now). The win brought me into the GenzTechies core community, where I've since been a core organizer of two more hackathons.
+
+## Education
+
+- B.Sc. Computer Science, Taraba State University (2022 – 2025)
+- Diploma in Computer Science, Nigerian Army College of Environmental Science and Technology (2018 – 2021)
+
+## Skills
+
+- **Languages:** TypeScript, JavaScript, Python
+- **Mobile:** React Native, Expo, EAS, Reanimated, Skia
+- **Frontend:** React, Next.js, Vue.js, Nuxt.js, Tailwind CSS, TanStack Query
+- **Backend:** Node.js, Hono, PostgreSQL, Redis, Prisma, Drizzle, Supabase
+- **AI:** AI SDK, Anthropic, Gemini
+- **Infrastructure:** Docker, Coolify, Cloudflare Workers, Vercel
+- **Testing:** Vitest, Playwright
+
+## Contact
+
+For engineering roles, collaborations, or a conversation about something you're building, email [me@usmangurowa.dev](mailto:me@usmangurowa.dev).

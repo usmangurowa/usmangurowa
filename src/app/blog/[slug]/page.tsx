@@ -1,7 +1,8 @@
 import { getBlogPosts, getPost } from "@/data/blog";
-import { DATA } from "@/data/resume";
+import { profile } from "@/data/profile";
 import { formatDate } from "@/lib/utils";
 import type { Metadata } from "next";
+import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Suspense } from "react";
 
@@ -25,7 +26,7 @@ export async function generateMetadata({
     summary: description,
     image,
   } = post.metadata;
-  let ogImage = image ? `${DATA.url}${image}` : `${DATA.url}/og?title=${title}`;
+  let ogImage = image ? `${profile.url}${image}` : `${profile.url}/og?title=${title}`;
 
   return {
     title,
@@ -35,7 +36,7 @@ export async function generateMetadata({
       description,
       type: "article",
       publishedTime,
-      url: `${DATA.url}/blog/${post.slug}`,
+      url: `${profile.url}/blog/${post.slug}`,
       images: [
         {
           url: ogImage,
@@ -66,6 +67,9 @@ export default async function Blog({
 
   return (
     <section id="blog">
+      <p className="mb-8 text-sm">
+        <Link href="/blog">← Writing</Link>
+      </p>
       <script
         type="application/ld+json"
         suppressHydrationWarning
@@ -78,24 +82,22 @@ export default async function Blog({
             dateModified: post.metadata.publishedAt,
             description: post.metadata.summary,
             image: post.metadata.image
-              ? `${DATA.url}${post.metadata.image}`
-              : `${DATA.url}/og?title=${post.metadata.title}`,
-            url: `${DATA.url}/blog/${post.slug}`,
+              ? `${profile.url}${post.metadata.image}`
+              : `${profile.url}/og?title=${post.metadata.title}`,
+            url: `${profile.url}/blog/${post.slug}`,
             author: {
               "@type": "Person",
-              name: DATA.name,
+              name: profile.name,
             },
           }),
         }}
       />
-      <h1 className="title font-medium text-2xl tracking-tighter max-w-[650px]">
+      <h1 className="masthead-title">
         {post.metadata.title}
       </h1>
-      <div className="flex justify-between items-center mt-2 mb-8 text-sm max-w-[650px]">
+      <div className="mt-2 mb-8 text-sm">
         <Suspense fallback={<p className="h-5" />}>
-          <p className="text-sm text-neutral-600 dark:text-neutral-400">
-            {formatDate(post.metadata.publishedAt)}
-          </p>
+          <p>{formatDate(post.metadata.publishedAt)}</p>
         </Suspense>
       </div>
       <article
