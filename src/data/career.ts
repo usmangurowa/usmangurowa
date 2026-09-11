@@ -37,6 +37,21 @@ export const career = {
   },
   work: [
     {
+      id: "levenza",
+      role: "Software Engineer",
+      company: "Levenza",
+      href: "https://levenza.com/",
+      start: "Mar 2025",
+      end: "Now",
+      note: "Build desktop features and backend services for an AI platform that automates administrative work. My contributions include conversational interfaces, device-session management, email-attachment processing, and improving the reliability and monitoring of agent workflows.",
+      bullets: {
+        desktop: "Built interactive desktop chat and conversation-management features, connecting interfaces to backend APIs and agent workflows.",
+        sessions: "Implemented device-session management across settings interfaces and backend APIs, including individual and bulk device sign-out.",
+        attachments: "Extended AI-agent workflows to process email attachments, including PDFs, images and meeting invitations, for Slack and Microsoft Teams integrations.",
+        reliability: "Improved agent observability with failure telemetry, integration tests and workflow-replay coverage.",
+      },
+    },
+    {
       id: "genztechies",
       role: "Software engineering lead",
       company: "GenzTechies",
@@ -56,7 +71,7 @@ export const career = {
       href: "https://brimble.io",
       start: "Aug 2022",
       end: "Early 2025",
-      note: "Led front-end development for Brimble, a web hosting platform. Built the interface, authentication and validation flows, and integrations with GitHub, Google and Firebase.",
+      note: "Led front-end development for a web hosting platform, including authentication and third-party integrations.",
       bullets: {
         delivery: "Led front-end development for a web hosting platform, building its interface with Next.js and TypeScript.",
         integrations: "Implemented authentication and validation flows, and integrations with GitHub, Google and Firebase.",
@@ -69,7 +84,7 @@ export const career = {
       href: "https://yusra.app",
       start: "Mar 2024",
       end: "Dec 2024",
-      note: "Full-stack engineer on Yusra, a brand-wallet shopping and rewards app. Built and shipped both the mobile app (React Native & Expo) and the web application.",
+      note: "Built and shipped the mobile and web applications for a brand-wallet shopping and rewards product.",
       bullets: {
         delivery: "Built and shipped mobile and web applications for a brand-wallet shopping and rewards product.",
         mobile: "Developed the mobile application with React Native and Expo for store discovery, brand wallets, rewards and shopping.",
@@ -84,7 +99,7 @@ export const career = {
       href: "https://terrahaptix.com",
       start: "Sep 2024",
       end: "Dec 2024",
-      note: "Interned as a hardware engineer, learning the intricate workings of hardware devices and drone technology, building and maintaining drones.",
+      note: "Built and maintained drones during a hardware engineering internship.",
       bullets: {
         hardware: "Built and maintained drones during a hardware engineering internship.",
       },
@@ -109,7 +124,7 @@ export const career = {
       href: "https://goalr.world",
       start: "Jul 2023",
       end: "Mar 2024",
-      note: "Sole mobile developer at Goalr, a fitness app that syncs Apple Health, Strava, Garmin and Google Fit. Designed, built and released the app end-to-end on a tight timeline.",
+      note: "Sole mobile developer, responsible for the fitness app from interface development through release.",
       bullets: {
         delivery: "Designed, built and released the React Native and Expo app as the sole mobile developer, shipping to iOS and Android.",
         integrations: "Integrated Apple Health, Strava, Garmin and Google Fit to track walks, runs and rides.",
@@ -130,7 +145,7 @@ export const career = {
       href: "https://play.google.com/store/apps/details?id=com.usescrim.app",
       start: "2022",
       end: "2023",
-      note: "Sole mobile developer for Scrim, a rewards and payments app. Built the app with React Native (Expo) and TypeScript, including wallets, biometric authentication, secure storage, push notifications and OTA updates. Shipped to iOS and Android, and contributed to the web app and API integrations. The app lives on as the Chimoney app.",
+      note: "Built and released the rewards and payments app as the sole mobile developer; also contributed to the web app and API integrations.",
       bullets: {
         delivery: "Built the rewards and payments app from the ground up with React Native, Expo and TypeScript; released it on iOS and Android.",
         security: "Implemented wallets, biometric authentication, secure storage, push notifications and over-the-air updates.",
@@ -180,9 +195,9 @@ export const career = {
       blurb: "A fitness app that brings walks, runs and rides into one place.",
       stack: ["React Native", "Expo", "TypeScript"],
       story: [
-        { label: "Responsibility", text: "I was the sole mobile developer, responsible for the app from its interface through to release." },
-        { label: "Implementation", text: "Integrated Apple Health, Strava, Garmin and Google Fit so the app could sync activity from different services." },
-        { label: "Delivery", text: "Designed, built and released the app to the App Store and Google Play on a tight timeline." },
+        { label: "My role", text: "Sole mobile developer, responsible for the interface, integrations and release." },
+        { label: "What I built", text: "Connected Apple Health, Strava, Garmin and Google Fit so the app could sync activity from different services." },
+        { label: "Shipped", text: "Released to the App Store and Google Play on a tight timeline." },
       ],
       links: [
         { label: "goalr.world", href: "https://goalr.world", kind: "web" },
@@ -194,12 +209,12 @@ export const career = {
       id: "scrim",
       name: "Scrim",
       when: "2022 - 2023",
-      blurb: "A rewards and payments app for earning as you spend, swapping crypto and sending transfers by email or phone.",
+      blurb: "A rewards and payments app for earning as you spend and sending transfers by email or phone.",
       stack: ["React Native", "Expo", "TypeScript", "Firebase", "Reanimated"],
       story: [
-        { label: "Responsibility", text: "Built the mobile app from the ground up as the sole mobile developer, covering the interface and business logic." },
-        { label: "Implementation", text: "Connected wallet and payment flows with biometric authentication, secure storage, push notifications and over-the-air updates. I also contributed to the web app and API integrations." },
-        { label: "Delivery", text: "Shipped to iOS and Android. The original Google Play listing now belongs to the Chimoney app." },
+        { label: "My role", text: "Sole mobile developer, building the interface and business logic from the ground up." },
+        { label: "What I built", text: "Wallet and payment flows, biometric authentication, secure storage, push notifications and over-the-air updates. Also contributed to web features and API integrations for payments, crypto swaps and global transfers." },
+        { label: "Shipped", text: "Released to iOS and Android. The original Google Play listing now belongs to the Chimoney app." },
       ],
       links: [
         { label: "Google Play (now Chimoney)", href: "https://play.google.com/store/apps/details?id=com.usescrim.app", kind: "playstore" },
@@ -209,12 +224,12 @@ export const career = {
       id: "yusra",
       name: "Yusra",
       when: "2024",
-      blurb: "A wallet for every brand: discover stores, earn rewards, save and shop.",
+      blurb: "A brand-wallet shopping and rewards product.",
       stack: ["React Native", "Expo", "Next.js", "TypeScript", "PostgreSQL", "Supabase"],
       story: [
-        { label: "Responsibility", text: "Worked full-stack across both the mobile app and the web application." },
-        { label: "Implementation", text: "Built the mobile product with React Native and Expo, and the browser experience with Next.js. The product covers store discovery, brand wallets, rewards and shopping." },
-        { label: "Delivery", text: "Built and shipped both surfaces rather than working on only one client." },
+        { label: "My role", text: "Full-stack engineer across the mobile app and web application." },
+        { label: "What I built", text: "React Native and Expo mobile experiences alongside a Next.js web application, covering store discovery, brand wallets, rewards and shopping." },
+        { label: "Shipped", text: "Both the mobile and web applications." },
       ],
       links: [{ label: "yusra.app", href: "https://yusra.app", kind: "web" }],
     },

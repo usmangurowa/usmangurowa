@@ -14,8 +14,8 @@ export const resumes: ResumeVariant[] = [
     id: "general",
     label: "General",
     title: "Software Engineer",
-    description: "A balanced overview of mobile, web and full-stack product work.",
-    summary: "Software engineer building mobile and web products since 2021. Experience includes payments, wallets, fitness integrations and developer tools, from interface implementation and API integrations through to release. Work spans independent delivery, engineering teams and community mentoring.",
+    description: "A balanced overview of mobile, web, desktop and full-stack product work.",
+    summary: "Software engineer building mobile, web and desktop products since 2021. Currently at Levenza, working on desktop experiences, backend services and AI-agent integrations. Experience includes payments, wallets, fitness integrations and developer tools, spanning independent delivery, engineering teams and community mentoring.",
     skills: [
       { label: "Languages", items: ["TypeScript", "JavaScript", "Python"] },
       { label: "Mobile and web", items: ["React Native", "Expo", "React", "Next.js", "Vue.js", "Nuxt.js", "Tailwind CSS"] },
@@ -23,6 +23,7 @@ export const resumes: ResumeVariant[] = [
       { label: "Delivery", items: ["Docker", "Coolify", "Git", "GitHub", "Playwright", "Vitest"] },
     ],
     bullets: {
+      levenza: ["desktop", "attachments", "reliability"],
       genztechies: ["delivery", "leadership"],
       brimble: ["delivery", "integrations"],
       yusra: ["delivery", "fullstack"],
@@ -42,7 +43,7 @@ export const resumes: ResumeVariant[] = [
     label: "Backend",
     title: "Software Engineer | Backend Focus",
     description: "Emphasizes APIs, data, authentication and payment-related product work.",
-    summary: "Full-stack software engineer focused on TypeScript APIs, relational data and authentication. Experience includes payments, wallets and payouts across mobile and web products, plus client-side API integrations. Current toolkit includes Hono, Drizzle, PostgreSQL and Docker, with mobile and frontend experience that informs API integration work.",
+    summary: "Software engineer focused on APIs, data and integrations. At Levenza, build backend services and AI-agent integrations spanning device sessions, email attachments and workflow reliability. Earlier work includes payments, wallets and payouts across mobile and web products, with frontend experience that informs API delivery.",
     skills: [
       { label: "Languages and runtime", items: ["TypeScript", "JavaScript", "Python", "Node.js", "Bun"] },
       { label: "APIs and data", items: ["Hono", "Express.js", "Drizzle", "Prisma", "PostgreSQL", "Redis", "Supabase", "Firebase"] },
@@ -50,6 +51,7 @@ export const resumes: ResumeVariant[] = [
       { label: "Infrastructure and tests", items: ["Docker", "Coolify", "Cloudflare Workers", "Infisical", "Vitest", "Playwright"] },
     ],
     bullets: {
+      levenza: ["sessions", "attachments", "reliability"],
       genztechies: ["delivery"],
       brimble: ["integrations"],
       yusra: ["delivery", "fullstack"],
@@ -69,7 +71,7 @@ export const resumes: ResumeVariant[] = [
     label: "Frontend",
     title: "Software Engineer | Frontend Focus",
     description: "Emphasizes interfaces, React and Next.js, state and integrations.",
-    summary: "Software engineer focused on web interfaces with React, Next.js and TypeScript. Led frontend delivery for a web hosting platform and built web applications for wallet, shopping and community products. Additional experience with Vue.js, Nuxt.js and React Native, working independently and alongside other engineers.",
+    summary: "Software engineer building web and desktop interfaces. Currently at Levenza, connecting desktop chat and settings experiences to backend APIs and agent workflows. Led frontend delivery at Brimble and built wallet, shopping and community applications with React, Next.js and TypeScript, with additional Vue.js and Nuxt.js experience.",
     skills: [
       { label: "Languages", items: ["TypeScript", "JavaScript", "HTML", "CSS"] },
       { label: "Frameworks", items: ["React", "Next.js", "Vue.js", "Nuxt.js", "React Native"] },
@@ -77,6 +79,7 @@ export const resumes: ResumeVariant[] = [
       { label: "Delivery and testing", items: ["Git", "GitHub", "Vercel", "Playwright", "Vitest"] },
     ],
     bullets: {
+      levenza: ["desktop", "sessions"],
       genztechies: ["delivery", "leadership"],
       brimble: ["delivery", "integrations"],
       yusra: ["web", "delivery"],
@@ -104,6 +107,7 @@ export const resumes: ResumeVariant[] = [
       { label: "Services and testing", items: ["Firebase", "Supabase", "Better Auth", "Node.js", "Vitest"] },
     ],
     bullets: {
+      levenza: ["desktop"],
       genztechies: ["leadership"],
       brimble: ["integrations"],
       yusra: ["mobile", "delivery"],
